@@ -1,218 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<html>
 
-    <title>Hasil Anotasi Film</title>
-<!--
-DREAM PULSE
-https://templatemo.com/tm-536-dream-pulse
--->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="slick/slick.css"/>    
-    <link rel="stylesheet" href="slick/slick-theme.css"/>    
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
-  <body>
-    <main class="container-fluid">
-      <div class="row">        
-          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
-            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
-              <i class="fas fa-bars"></i>
-            </button>
-            <div class="tm-sidebar-sticky">
-              <div class="tm-brand-box">
-                <div>
-                  <div>
-                    <img src="babuaja2.png" height="80" width="260">
-                  </div>
-                </div>
-              </div>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-              <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
-                <li class="nav-item">
-                  <a href="https://babuaja.github.io/index.html" class="nav-link active">
-                    Back to Home
-                    
-                  </a>
-                </li>
-                
-                
-              </ul>
-              <ul class="nav flex-row tm-social-links">
-                <li class="nav-item">
-                  <a href="https://facebook.com" class="nav-link tm-social-link">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://twitter.com" class="nav-link tm-social-link">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://dribbble.com" class="nav-link tm-social-link">
-                    <i class="fab fa-dribbble"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://linkedin.com" class="nav-link tm-social-link">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-              <footer class="text-center text-white small">
-                © Copyright<strong>BabuAja.</strong> <p>All Right Reserved</p>
-              </footer>
-            </div>
-          </nav>
-          
-          <!--Pencarian Film-->
-          <form>
-            <input class="search" type="text" placeholder="Search Judul Film..." required>
-            <input class="button" type="button" value="Search">
-            
-          </form>
-
-          <!--Pencarian Berdasarkan filters-->
-          <div class="sidenav">
-            <button class="dropdown-btn">Mood
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-              <a href="#angry">Angry</a>
-              <a href="#sad">Sad</a>
-              <a href="#stress">Stress</a>
-              <a href="#lonely">Lonely</a>
-              <a href="#fighting">Figthting</a>
-            </div>
-          </div>
-
-          <!--Pencarian berdasarkan sorting-->
-          <div class="sidenavs">
-            <button class="dropdown-btn">Sort By
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-container">
-              <a href="#a-z">A-Z</a>
-              <a href="#z-a">Z-A</a>
-              
-            </div>
-          </div>
-            
-          <div class="tm-section-wrap bg-white">
-            <section id="work" class="row tm-section">
-              <div class="col-12">
-                <div class="w-100 tm-double-border-1 tm-border-gray">
-                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
-                      <div class="tm-gallery-wrap">
-                          <h2 class="tm-color-primary tm-section-title mb-4 ml-2">HASIL ANOTASI DATA</h2>
-                          <div class="tm-gallery">
-                            <div class="tm-gallery-item">                        
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/01.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/01.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/02.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/02.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/03.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/03.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/04.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/04.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/05.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/05.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/06.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/06.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/07.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/07.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/08.jpg" alt="Our Work Image" class="img-fluid">
-                                <figcaption>
-                                  <h2>Fresh <span>Bubba</span></h2>
-                                  <p>Bubba likes to appear out of thin air.</p>
-                                  <a href="img/gallery/large/08.jpg">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-                          </div>
-                      </div>                        
-                    </div>                  
-                  </div>     
-              </div>         
-            </section>
-          </div>
-            
-          
-            
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
         
-        </main>        
-      </div>
-    </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="slick/slick.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/templatemo-scripts.js"></script>
-  </body>
+        <!-- Box icon -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Link Custom Css -->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+        <!-- Favicons -->
+        <link href="assets/img/BabuAja.png" rel="icon">
+        <link href="assets/img/BabuAja.png" rel="apple-touch-icon">
+
+        <!--Tittle-->
+        <title>Anotasi Data Sinopsis Film</title>
+    </head>
+
+    <body id="body-pd">
+        <!-- Navbar -->
+        <header class="header" id="header">
+            <div class="header_toggle me-3">
+                <i class='bx bx-menu' id="header-toggle"></i>
+            </div>
+            <form>
+                <!-- Search -->
+                <div class="input-group">
+                    <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search Movie"
+                        aria-describedby="button-addon2">
+                    <button 
+                        class="btn btn-outline-secondary" 
+                        type="button" 
+                        id="button-addon2">
+                        <i class="material-icons">search</i>
+                    </button>
+                </div>
+                <!-- End Search -->
+            </form>
+            <form class="d-flex flex-row justify-content-evenly">
+                <!-- Mood Filter-->
+                <div class="input-group">
+                    <button
+                        class="btn btn-outline-secondary dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="large material-icons">mood</i>
+                    </button>
+                        
+  
+                    
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">Angry</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Fighting</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Happy</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Hopeful</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Humorous</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Hopeful</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Lonely</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Romantic</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Sad</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Stressed</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Tense</a>
+                        </li>
+
+                        <li><hr class="dropdown-divider"></li>
+                        <li style="text-align: center;">
+                            -- Select Mood --
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Mood Filter -->
+                <!-- Mood Filter-->
+                <div class="input-group">
+                    <button
+                        class="btn btn-outline-secondary dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="large material-icons">sort</i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">Action</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Another action</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Mood Filter -->
+            </form>
+            <div class="header_img ms-5">
+                <img src="img/BabuAja.png" alt="">
+            </div>
+        </header>
+        <!-- End Navbar-->
+        <!-- Sidebar -->
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div>
+                    <a href="#" class="nav_logo">
+                        <i class='bx bx-layer nav_logo-icon'></i>
+                        <span class="nav_logo-name">Babu Aja</span>
+                    </a>
+                    <div class="nav_list">
+                        <a href="#" class="nav_link active">
+                            <i class='bx bx-grid-alt nav_icon'></i>
+                            <span class="nav_name">Dashboard</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i>
+                            <span class="nav_name">Users</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-message-square-detail nav_icon'></i>
+                            <span class="nav_name">Messages</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-bookmark nav_icon'></i>
+                            <span class="nav_name">Bookmark</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-folder nav_icon'></i>
+                            <span class="nav_name">Files</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-bar-chart-alt-2 nav_icon'></i>
+                            <span class="nav_name">Stats</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="nav_link">
+                    <i class='bx bx-log-out nav_icon'></i>
+                    <span class="nav_name">SignOut</span>
+                </a>
+            </nav>
+        </div>
+        <!-- End Sidebar -->
+        <!--Container Main start-->
+        <div class="height-100 bg-light">
+            <h4>Main Components</h4>
+        </div>
+        <!--Container Main end-->
+
+        <!-- Script Bundle Boostrap 5.2 -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- Script separate boostrap 5.2 -->
+        <!-- <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script> <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script> -->
+        <!-- Custom Script -->
+        <script src="js/kode.js"></script>
+    </body>
+
 </html>
