@@ -12,14 +12,16 @@
             rel="stylesheet"
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous">
-        
+
         <!-- Box icon -->
         <link
             href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
             rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Link Custom Css -->
         <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+        <!-- LInk Font Awesome -->
+        <script src="https://kit.fontawesome.com/566fc9c974.js" crossorigin="anonymous"></script>
 
         <!-- Favicons -->
         <link href="assets/img/BabuAja.png" rel="icon">
@@ -35,36 +37,31 @@
             <div class="header_toggle me-3">
                 <i class='bx bx-menu' id="header-toggle"></i>
             </div>
+            <!-- Form Search -->
             <form>
                 <!-- Search -->
-                <div class="input-group">
+                <div class="input-group search">
                     <input
                         type="text"
                         class="form-control"
                         placeholder="Search Movie"
                         aria-describedby="button-addon2">
-                    <button 
-                        class="btn btn-outline-secondary" 
-                        type="button" 
-                        id="button-addon2">
-                        <i class="material-icons">search</i>
-                    </button>
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
                 </div>
                 <!-- End Search -->
             </form>
+            <!-- End Form Search -->
+            <!-- Select Mood and Sort -->
             <form class="d-flex flex-row justify-content-evenly">
                 <!-- Mood Filter-->
-                <div class="input-group">
+                <div class="input-group filter">
                     <button
                         class="btn btn-outline-secondary dropdown-toggle"
                         type="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        <i class="large material-icons">mood</i>
+                        <i class="far fa-grin"></i>
                     </button>
-                        
-  
-                    
                     <ul class="dropdown-menu">
                         <li>
                             <a class="dropdown-item" href="#">Angry</a>
@@ -107,36 +104,34 @@
                     </ul>
                 </div>
                 <!-- End Mood Filter -->
-                <!-- Mood Filter-->
+                <!-- Sort By-->
                 <div class="input-group">
                     <button
                         class="btn btn-outline-secondary dropdown-toggle"
                         type="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        <i class="large material-icons">sort</i>
+                        <i class="fas fa-sort"></i>
                     </button>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Ascending</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Descending</a>
                         </li>
                         <li><hr class="dropdown-divider"></li>
-                        <li>
-                            <a class="dropdown-item" href="#">Separated link</a>
+                        <li style="text-align: center;">
+                            -- Select Sorting --
                         </li>
                     </ul>
                 </div>
-                <!-- End Mood Filter -->
+                <!-- End Sort By -->
             </form>
-            <div class="header_img ms-5">
-                <img src="img/BabuAja.png" alt="">
-            </div>
+            <!-- End Select Mood and Sort -->
+            <!-- Icon User -->
+            <img src="img/BabuAja.png" class="img-thumbnail" alt="">
+            <!-- End Icon User -->
         </header>
         <!-- End Navbar-->
         <!-- Sidebar -->
@@ -181,9 +176,210 @@
             </nav>
         </div>
         <!-- End Sidebar -->
+
         <!--Container Main start-->
+        <!-- If u want take content here edit :-->
         <div class="height-100 bg-light">
-            <h4>Main Components</h4>
+            <!-- Show popular Movie -->
+            <h4 class="pt-3 text-center">Popular Movie</h4>
+            <!-- Slideshow -->
+            <div class="container-fluid mb-5">
+                <div
+                    id="carouselExampleDark"
+                    class="carousel carousel-dark slide pt-3"
+                    data-bs-ride="carousel"
+                    data-bs-interval="10000">
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleDark"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center align-middle">
+                                <div class="col ">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+            <!-- End Slideshow -->
+            <!-- End Show popular Movie -->
+            <!-- Hasil anotasi data terbaru -->
+            <h4 class="pt-3 text-center">Hasil Anotasi Data Terbaru</h4>
+            <!-- Show film with table with 4 col per row-->
+            <div class="container-fluid mb-5">
+                <div class="row mb-2">
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-sm">
+                        <img
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--Container Main end-->
 
