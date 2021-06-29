@@ -130,7 +130,7 @@
             </form>
             <!-- End Select Mood and Sort -->
             <!-- Icon User -->
-            <img src="img/BabuAja.png" class="img-thumbnail" alt="">
+            <img src="img/BabuAja.png" class="img-thumbnail rounded-circle" alt="">
             <!-- End Icon User -->
         </header>
         <!-- End Navbar-->
@@ -179,9 +179,27 @@
 
         <!--Container Main start-->
         <!-- If u want take content here edit :-->
-        <div class="height-100 bg-light">
+        <div class="container-fluid">
+            <!-- My Modal -->
+            <div id="myModal" class="modal">
+                <div id="close" class="d-flex flex-row-reverse">
+                    <i id="bclose" class="fas fa-times-circle p-3 fs-3"></i>
+                </div>
+                <div class="row showImg">
+                    <div class="col-md-5">
+                        <img id="fImg" class="img-fluid mx-auto d-block">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row p-3 border border-white">
+                            <div id="ftitle" class="row h2">Rewrite for tittle</div>
+                            <div id="fdetails" class="row fs-4">Rewrite for sinopsis</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End My Modal -->
             <!-- Show popular Movie -->
-            <h4 class="pt-3 text-center">Popular Movie</h4>
+            <h1 class="pt-3 text-center">Popular Movie</h1>
             <!-- Slideshow -->
             <div class="container-fluid mb-5">
                 <div
@@ -211,45 +229,38 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row justify-content-center align-middle">
-                                <div class="col ">
+                                <div class="col">
                                     <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
-                                        class="img-fluid mx-auto d-block"
+                                        src="https://m.media-amazon.com/images/M/MV5BNjcxMmQ0MmItYTkzYy00MmUyLTlhOTQtMmJmNjE3MDMwYjdlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX1000.jpg"
+                                        class="img-fluid mx-auto d-block targetImg"
                                         alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img 
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
+                                        class="img-fluid mx-auto d-block targetImg"
+                                        alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col">
                                     <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                                         class="img-fluid mx-auto d-block"
                                         alt="img06"/>
-                                </div>
-                                <div class="col">
-                                    <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
-                                        class="img-fluid mx-auto d-block"
-                                        alt="img06"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row justify-content-center">
-                                <div class="col">
-                                    <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
-                                        class="img-fluid mx-auto d-block"
-                                        alt="img06"/>
-                                </div>
-                                <div class="col">
-                                    <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
-                                        class="img-fluid mx-auto d-block"
-                                        alt="img06"/>
-                                </div>
-                                <div class="col">
-                                    <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
-                                        class="img-fluid mx-auto d-block"
-                                        alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -257,21 +268,73 @@
                             <div class="row justify-content-center">
                                 <div class="col">
                                     <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                                         class="img-fluid mx-auto d-block"
                                         alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col">
                                     <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                                         class="img-fluid mx-auto d-block"
                                         alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="col">
                                     <img
-                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                                         class="img-fluid mx-auto d-block"
                                         alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img
+                                        src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
+                                        class="img-fluid mx-auto d-block"
+                                        alt="img06"/>
+                                    <div class="middle">
+                                        <div class="text-wrap h2">
+                                            Tittle Lorem ipsum dolor sit amet
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -293,36 +356,35 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-
             </div>
             <!-- End Slideshow -->
             <!-- End Show popular Movie -->
             <!-- Hasil anotasi data terbaru -->
-            <h4 class="pt-3 text-center">Hasil Anotasi Data Terbaru</h4>
+            <h2 class="pt-3 text-center">Hasil Anotasi Data Terbaru</h2>
             <!-- Show film with table with 4 col per row-->
-            <div class="container-fluid mb-5">
+            <div class="container-fluid mb-5 pt-3">
                 <div class="row mb-2">
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
@@ -330,25 +392,25 @@
                 <div class="row mb-2">
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
@@ -356,30 +418,31 @@
                 <div class="row mb-2">
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                     <div class="col-sm">
                         <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX200.jpg"
+                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
                 </div>
             </div>
+            <!-- End Show Film table-->
         </div>
         <!--Container Main end-->
 
