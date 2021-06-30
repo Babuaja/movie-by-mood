@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     function colorLink(){
     if(linkColor){
-    linkColor.forEach(l=> l.classList.remove('active'))
-    this.classList.add('active')
+        linkColor.forEach(l=> l.classList.remove('active'))
+        this.classList.add('active')
     }
     }
     linkColor.forEach(l=> l.addEventListener('click', colorLink))
@@ -76,3 +76,6 @@ buttonClose.onclick = function(){
     body.style.overflow = 'visible';
     console.log("masujk sad");
 }
+
+//hide section login
+var flogin = document.getElementById("Graph");

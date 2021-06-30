@@ -301,7 +301,12 @@ i:hover{
     margin-bottom: 10px;
 }
 
-.container {
+/* hide login from default*/
+#login{
+    display: none;
+}
+
+#login .container {
     margin-top: 20px;
     text-align: center;
     padding: 20px 25px;
