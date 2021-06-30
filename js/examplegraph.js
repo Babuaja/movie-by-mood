@@ -1,3 +1,7 @@
+/*========================*/
+/*==== Using Chartjs =====*/
+/*========================*/
+
 /*==== setup ====*/
 const labels = [
     'January',
@@ -8,6 +12,7 @@ const labels = [
     'June',
     'July'
 ];
+//data
 const data = {
     labels: labels,
     datasets: [
@@ -43,21 +48,17 @@ const config = {
         plugins: {
             title: {
                 display: true,
-                text: 'Custom Chart Title'
-            }
+                text: 'Custom Chart Title',
+                font: {
+                    family: "Georgia, serif",
+                    size: 16
+                }
+            },
         }
     }
 };
 
 /*===== render graphic =====*/
-// var myChart = new Chart(
-//     document.getElementById('myChart'),
-//     config
-// );
-
-// var myChart = new Chart(
-
-// );
 var myChartExmaple=[];
 var idchart = '';
 for(var i = 0; i < 4; i++){
