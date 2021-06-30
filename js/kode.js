@@ -51,27 +51,45 @@ var ftittle = document.getElementById("ftitle");
 var fImg = document.getElementById('fImg');
 //get details
 var details = document.getElementById("fdetails");
+var year = document.getElementById("fyear");
+var rating = document.getElementById("frating");
+var duration = document.getElementById("fduration");
+var directors = document.getElementById("fdirectors");
+var stars = document.getElementById("fstars");
+
 //get button close
 var buttonClose=document.getElementById("bclose");
-//when image onclick
-// console.log(img);
-// img[0].onclick = function(){
-//     modal.style.display = "block";
-//     ftittle.innerHTML = 'Tittle of The Movie';
-//     fImg.src = this.src;
-//     details.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum metus eu leo pretium, a sagittis sem tempus. Quisque gravida est eu nibh dapibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas sed suscipit lectus. Praesent varius imperdiet felis, et lacinia lectus porttitor eu. Nullam bibendum orci ut vehicula auctor. Nulla blandit scelerisque tortor, non ultrices urna efficitur quis. In accumsan erat dapibus libero scelerisque gravida. Nunc tempor dui ut convallis ornare.<br><br>tahun : 1xxx<br>genre: xxx<br>artis: a, b, c<br>dsb';
-//     body.style.overflow = "hidden";
-// }
 
-// img[1].onclick = function(){
-//     modal.style.display = "block";
-//     ftittle.innerHTML = 'Tittle of The Movie';
-//     fImg.src = this.src;
-//     details.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum metus eu leo pretium, a sagittis sem tempus. Quisque gravida est eu nibh dapibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas sed suscipit lectus. Praesent varius imperdiet felis, et lacinia lectus porttitor eu. Nullam bibendum orci ut vehicula auctor. Nulla blandit scelerisque tortor, non ultrices urna efficitur quis. In accumsan erat dapibus libero scelerisque gravida. Nunc tempor dui ut convallis ornare.<br><br>tahun : 1xxx<br>genre: xxx<br>artis: a, b, c<br>dsb';
-//     body.style.overflow = "hidden";
-// }
+//hide section login
+var flogin = document.getElementById("Graph");
 
-// klik film, muncul info detail
+// show all film
+let movie_location = document.querySelector('#data-film');
+let movie_temp = ``;
+
+let count_movie = 0;
+for (let i=0; i<25; i++) {
+    // baris
+    movie_temp += `<div class="row mb-2">`;
+
+    for (let j=0; j<4; j++) {
+        // kolom
+        movie_temp += `
+            <div class="col-sm">
+                <img
+                    src="${movies[count_movie].data.gambar}"
+                    class="img-fluid mx-auto d-block targetImg lozad"
+                    />
+            </div>`
+
+        count_movie++;
+    } 
+
+    movie_temp += `</div>`;
+}
+
+movie_location.innerHTML += movie_temp;
+        
 for (const img_movie of img) {
     img_movie.addEventListener('click', (e) => {
         let this_movie;
@@ -87,6 +105,11 @@ for (const img_movie of img) {
         ftittle.innerHTML = this_movie.judul;
         fImg.src = this_movie.gambar;
         details.innerHTML = this_movie.synopsis;
+        year.innerHTML = this_movie.tahun;
+        rating.innerHTML = this_movie.rating;
+        duration.innerHTML = this_movie.durasi;
+        directors.innerHTML = this_movie.director;
+        stars.innerHTML = this_movie.stars;
         body.style.overflow = "hidden";
 
     });
@@ -97,6 +120,3 @@ buttonClose.onclick = function(){
     body.style.overflow = 'visible';
     console.log("masujk sad");
 }
-
-//hide section login
-var flogin = document.getElementById("Graph");
