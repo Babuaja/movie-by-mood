@@ -54,21 +54,42 @@ var details = document.getElementById("fdetails");
 //get button close
 var buttonClose=document.getElementById("bclose");
 //when image onclick
-console.log(img);
-img[0].onclick = function(){
-    modal.style.display = "block";
-    ftittle.innerHTML = 'Tittle of The Movie';
-    fImg.src = this.src;
-    details.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum metus eu leo pretium, a sagittis sem tempus. Quisque gravida est eu nibh dapibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas sed suscipit lectus. Praesent varius imperdiet felis, et lacinia lectus porttitor eu. Nullam bibendum orci ut vehicula auctor. Nulla blandit scelerisque tortor, non ultrices urna efficitur quis. In accumsan erat dapibus libero scelerisque gravida. Nunc tempor dui ut convallis ornare.<br><br>tahun : 1xxx<br>genre: xxx<br>artis: a, b, c<br>dsb';
-    body.style.overflow = "hidden";
-}
+// console.log(img);
+// img[0].onclick = function(){
+//     modal.style.display = "block";
+//     ftittle.innerHTML = 'Tittle of The Movie';
+//     fImg.src = this.src;
+//     details.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum metus eu leo pretium, a sagittis sem tempus. Quisque gravida est eu nibh dapibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas sed suscipit lectus. Praesent varius imperdiet felis, et lacinia lectus porttitor eu. Nullam bibendum orci ut vehicula auctor. Nulla blandit scelerisque tortor, non ultrices urna efficitur quis. In accumsan erat dapibus libero scelerisque gravida. Nunc tempor dui ut convallis ornare.<br><br>tahun : 1xxx<br>genre: xxx<br>artis: a, b, c<br>dsb';
+//     body.style.overflow = "hidden";
+// }
 
-img[1].onclick = function(){
-    modal.style.display = "block";
-    ftittle.innerHTML = 'Tittle of The Movie';
-    fImg.src = this.src;
-    details.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum metus eu leo pretium, a sagittis sem tempus. Quisque gravida est eu nibh dapibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas sed suscipit lectus. Praesent varius imperdiet felis, et lacinia lectus porttitor eu. Nullam bibendum orci ut vehicula auctor. Nulla blandit scelerisque tortor, non ultrices urna efficitur quis. In accumsan erat dapibus libero scelerisque gravida. Nunc tempor dui ut convallis ornare.<br><br>tahun : 1xxx<br>genre: xxx<br>artis: a, b, c<br>dsb';
-    body.style.overflow = "hidden";
+// img[1].onclick = function(){
+//     modal.style.display = "block";
+//     ftittle.innerHTML = 'Tittle of The Movie';
+//     fImg.src = this.src;
+//     details.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum metus eu leo pretium, a sagittis sem tempus. Quisque gravida est eu nibh dapibus cursus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas sed suscipit lectus. Praesent varius imperdiet felis, et lacinia lectus porttitor eu. Nullam bibendum orci ut vehicula auctor. Nulla blandit scelerisque tortor, non ultrices urna efficitur quis. In accumsan erat dapibus libero scelerisque gravida. Nunc tempor dui ut convallis ornare.<br><br>tahun : 1xxx<br>genre: xxx<br>artis: a, b, c<br>dsb';
+//     body.style.overflow = "hidden";
+// }
+
+// klik film, muncul info detail
+for (const img_movie of img) {
+    img_movie.addEventListener('click', (e) => {
+        let this_movie;
+
+        // search img source that match
+        for (movie of movies) {
+            if ( e.currentTarget.src === movie.data.gambar) {
+                this_movie = movie.data;
+            }
+        }
+
+        modal.style.display = "block";
+        ftittle.innerHTML = this_movie.judul;
+        fImg.src = this_movie.gambar;
+        details.innerHTML = this_movie.synopsis;
+        body.style.overflow = "hidden";
+
+    });
 }
 
 buttonClose.onclick = function(){
