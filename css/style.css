@@ -180,6 +180,12 @@ a {
     }
 }
 
+/*=== Thumbnail User ====*/
+.user-thumb{
+    width: 38.5px;
+    border: solid 1px black;
+}
+
 /** filter mood style**/
 form .input-group.filter{
     margin-right: 16px;
@@ -346,4 +352,28 @@ i:hover{
         border-bottom: 2px solid #752BEA;
         color: #fff;
         font-size: 20px;
+}
+
+/*=== Profile Section ===*/
+.container.profile{
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: solid 2px rgb(179, 179, 179);
+    width: 100%;
+}
+
+.divider{
+    border-top: 3px solid #bbb;
+}
+
+.userprofile{
+    margin-top: 100px;
+}
+
+/** responsi user-profile **/
+@media screen and (max-width: 767px) {
+    .userprofile{
+        margin-top:70px;
+    }
+    
 }
