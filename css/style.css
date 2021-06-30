@@ -180,6 +180,12 @@ a {
     }
 }
 
+/*=== Thumbnail User ====*/
+.user-thumb{
+    width: 38.5px;
+    border: solid 1px black;
+}
+
 /** filter mood style**/
 form .input-group.filter{
     margin-right: 16px;
@@ -291,4 +297,83 @@ img.img-fluid{
 /* hover for i */
 i:hover{
     cursor: pointer;
+}
+
+/*from lamda */
+.nav_section {
+    text-align: center;
+    font-family: sans-serif;
+    font-family: inherit;
+    margin-bottom: 10px;
+}
+
+/* hide login from default*/
+#login{
+    display: none;
+}
+
+#login .container {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 25px;
+    width: 300px;
+    font-family:inherit;
+    background-color:#4723d9;
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    
+}
+
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #bf9afa;
+    color: rgb(184, 184, 184);
+    font-size: 20px;
+}
+.login{
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+    border: none;
+    background-color:#fafafa;
+    font-size: 18px;
+    color: #752BEA;
+    border-radius: 20px;
+}
+.input {
+        width: calc(100% - 20px);
+        padding: 8px 10px;
+        margin-bottom: 15px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #752BEA;
+        color: #fff;
+        font-size: 20px;
+}
+
+/*=== Profile Section ===*/
+.container.profile{
+    margin-top: 30px;
+    background-color: #ffffff;
+    border: solid 2px rgb(179, 179, 179);
+    width: 100%;
+}
+
+.divider{
+    border-top: 3px solid #bbb;
+}
+
+.userprofile{
+    margin-top: 100px;
+}
+
+/** responsi user-profile **/
+@media screen and (max-width: 767px) {
+    .userprofile{
+        margin-top:70px;
+    }
+    
 }
