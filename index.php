@@ -48,7 +48,7 @@
                 <div class="input-group search">
                     <input
                         type="text"
-                        class="form-control"
+                        class="form-control search-value"
                         placeholder="Search Movie"
                         aria-describedby="button-addon2">
                     <button class="btn btn-outline-secondary search-button" type="button" id="button-addon2">Search</button>
@@ -69,37 +69,37 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li>
-                            <p class="dropdown-item mood-button" href="">Angry</p>
+                            <p class="dropdown-item mood-button">Angry</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Fighting</p>
+                            <p class="dropdown-item mood-button">Fighting</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Happy</p>
+                            <p class="dropdown-item mood-button">Happy</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Hopeful</p>
+                            <p class="dropdown-item mood-button">Hopeful</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Humorous</p>
+                            <p class="dropdown-item mood-button">Humorous</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Hopeful</p>
+                            <p class="dropdown-item mood-button">Hopeful</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Lonely</p>
+                            <p class="dropdown-item mood-button">Lonely</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Romantic</p>
+                            <p class="dropdown-item mood-button">Romantic</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Sad</p>
+                            <p class="dropdown-item mood-button">Sad</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Stressed</p>
+                            <p class="dropdown-item mood-button">Stressed</p>
                         </li>
                         <li>
-                            <p class="dropdown-item mood-button" href="">Tense</p>
+                            <p class="dropdown-item mood-button">Tense</p>
                         </li>
 
                         <li><hr class="dropdown-divider"></li>
@@ -212,8 +212,8 @@
             <!-- End Slideshow -->
             <!-- End Show popular Movie -->
             <!-- Hasil anotasi data terbaru -->
-            <h2 class="pt-3 text-center">Hasil Anotasi Data Terbaru</h2>
             <!-- Show film with table with 4 col per row-->
+            <div class="title-fitur"></div>
             <div class="container-fluid mb-5 pt-3" id="data-film">
             </div>
             <!-- End Show Film table-->
@@ -243,6 +243,7 @@
     </body>
 
 </html>
+
 <?php
     } else{
      header("Location: ../Login-WEB/index.php");

@@ -63,6 +63,8 @@ var buttonClose=document.getElementById("bclose");
 //hide section login
 var flogin = document.getElementById("Graph");
 
+let title_fitur = document.querySelector('.title-fitur');
+
 // fungsi klik image detail
 const addClickImageDetail = function() {
     const img = document.querySelectorAll('.targetImg');
@@ -127,7 +129,77 @@ for (let i=0; i<25; i++) {
 movie_location.innerHTML += movie_temp;
 
 // tombol search
-// const search_btn = document.querySelector(`.button-sach`)
+const search_btn = document.querySelector(`.search-button`);
+search_btn.addEventListener('click', (e) => {
+    const target_movie = document.querySelector('.search-value').value;
+
+    movie_location.innerHTML = '';
+    movie_temp = ``;
+
+    let movie = undefined;
+    title_fitur.innerHTML = `<h1 class="text-center movie-stats">Stats a Movie</h1>`
+
+    for (m of movies) {
+        if (target_movie == m.data.judul) {
+            movie = m;
+        }
+    }
+
+    if (movie === undefined) {
+        movie_temp += `
+            <div class="container">
+                <div class="shadow row mb-5">
+                    <div class="col-md-3">
+                        <img
+                            src="img/BabuAja.png"
+                            class="img-fluid mx-auto d-block"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Judul film tidak ditemukan</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <canvas id="myChart4"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `
+    } else {
+        let mood_list = '';
+        for (mood of movie.completions[0].result) {
+            mood_list += `<h4>${mood.value.labels[0]}: ${mood.value.text}</h4>`
+        }
+
+        movie_temp += `
+            <div class="container">
+                <div class="shadow row mb-5">
+                    <div class="col-md-3">
+                        <img
+                            src="${movie.data.gambar}"
+                            class="img-fluid mx-auto d-block targetImg"
+                            alt="img06"/>
+                    </div>
+                    <div class="col-md-5">
+                        <h3>Judul: ${movie.data.judul}</h3>
+                        <h3>Synopsis: ${movie.data.synopsis}</h3>
+                        <h3>Mood List:</h3>
+                        ${mood_list}
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <canvas id="myChart4"></canvas>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        `
+ 
+    }
+    movie_location.innerHTML = movie_temp;
+    addClickImageDetail();
+});
 
 // tombol mood
 const mood_btn = document.querySelectorAll(`.mood-button`);
@@ -142,9 +214,10 @@ for (mood of mood_btn) {
             }
         });
 
+        title_fitur.innerHTML = `<h1 class="text-center movie-stats">Film Dengan Mood ${e.currentTarget.innerText}</h1>`
         movie_location.innerHTML = '';
         movie_temp = ``;
-
+        movie_temp += `<h2 class="pt-3 text-center"></h2>`
         let count_movie = 0;
         for (let i=0; count_movie < filtered_movie.length; i++) {
             // baris
