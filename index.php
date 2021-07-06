@@ -120,10 +120,10 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="#">Ascending</a>
+                            <p class="dropdown-item sort-button" >Ascending</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Descending</a>
+                            <p class="dropdown-item sort-button" >Descending</p>
                         </li>
                         <li><hr class="dropdown-divider"></li>
                         <li style="text-align: center;">
@@ -242,7 +242,7 @@
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     </body>
 
-<
+</html>
 <?php
     } else{
      header("Location: ../Login-WEB/index.php");

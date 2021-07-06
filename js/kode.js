@@ -171,4 +171,72 @@ for (mood of mood_btn) {
 
 }
 
+// tombol descending ascending 
+const compare = function(a, b) {
+    if (a.data.judul > b.data.judul) {
+        return 1;
+    }
+
+    if (a.data.judul < b.data.judul) {
+        return -1;
+    }
+
+    return 0;
+}
+
+const sort_btn = document.querySelectorAll('.sort-button');
+for (sort of sort_btn) {
+    sort.addEventListener('click', (e) => {
+        filtered_movie.sort(compare);
+
+        if (e.currentTarget.innerText === 'Descending') {
+            filtered_movie.reverse();
+        }
+
+        movie_location.innerHTML = '';
+        movie_temp = ``;
+
+        let count_movie = 0;
+        for (let i=0; count_movie < filtered_movie.length; i++) {
+            // baris
+            movie_temp += `<div class="row mb-2">`;
+        
+            for (let j=0; (j<4) && count_movie < filtered_movie.length; j++) {
+                // kolom
+                movie_temp += `
+                    <div class="col-sm">
+                        <img
+                            src="${filtered_movie[count_movie].data.gambar}"
+                            class="img-fluid mx-auto d-block targetImg lozad"
+                            />
+                    </div>
+                `
+                count_movie++;
+            } 
+            movie_temp += `</div>`;
+        }
+        movie_location.innerHTML += movie_temp;
+
+        addClickImageDetail();
+
+    });
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 addClickImageDetail();
