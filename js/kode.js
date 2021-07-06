@@ -88,7 +88,11 @@ for (let i=0; i<25; i++) {
     movie_temp += `</div>`;
 }
 
-movie_location.innerHTML += movie_temp;
+if(movie_location!=null){
+    //console.log(movie_location);
+    movie_location.innerHTML += movie_temp;
+}
+    
         
 for (const img_movie of img) {
     img_movie.addEventListener('click', (e) => {
@@ -100,7 +104,6 @@ for (const img_movie of img) {
                 this_movie = movie.data;
             }
         }
-
         modal.style.display = "block";
         ftittle.innerHTML = this_movie.judul;
         fImg.src = this_movie.gambar;
@@ -118,5 +121,4 @@ for (const img_movie of img) {
 buttonClose.onclick = function(){
     modal.style.display = 'none';
     body.style.overflow = 'visible';
-    console.log("masujk sad");
 }

@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    if (isset($_SESSION['id_customer']) && isset($_SESSION['email'])) {
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -130,11 +135,10 @@
             </form>
             <!-- End Select Mood and Sort -->
             <!-- Icon User -->
-            <img src="img/BigBabuaja.png" class="shadow user-thumb rounded-circle" alt="">
+            <img src="img/BabuAja.png" class="img-thumbnail rounded-circle" alt="">
             <!-- End Icon User -->
         </header>
         <!-- End Navbar-->
-        
         <!-- Sidebar -->
         <div class="l-navbar" id="nav-bar">
             <nav class="nav">
@@ -179,93 +183,40 @@
         <!-- End Sidebar -->
 
         <!--Container Main start-->
-        <!-- If u want take content here edit :-->     
-        <section id="File">
-            <!-- Hasil anotasi data terbaru -->
-            <h2 class="pt-3 text-center">Hasil Anotasi Data Terbaru</h2>
-            <!-- Show film with table with 4 col per row-->
-            <div class="container-fluid mb-5 pt-3">
-                <div class="row mb-2">
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
+        <!-- If u want take content here edit :-->
+        <div id="main" class="container-fluid">
+            <!-- My Modal -->
+            <div id="myModal" class="modal">
+                <div id="close" class="d-flex flex-row-reverse">
+                    <i id="bclose" class="fas fa-times-circle p-3 fs-3"></i>
                 </div>
-                <div class="row mb-2">
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
+                <div class="row showImg">
+                    <div class="col-md-5">
+                        <img id="fImg" class="img-fluid mx-auto d-block">
                     </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                </div>
-                <div class="row mb-2">
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
-                    </div>
-                    <div class="col-sm">
-                        <img
-                            src="https://m.media-amazon.com/images/M/MV5BYWFlOWI3YTMtYTk3NS00YWQ2LTlmYTMtZjk0ZDk4Y2NjODI0XkEyXkFqcGdeQXVyNTQxNTQ4Mg@@._V1_SX1000.jpg"
-                            class="img-fluid mx-auto d-block"
-                            alt="img06"/>
+                    <div class="col-md-7">
+                        <div class="row p-3 border border-white">
+                            <div id="ftitle" class="row h2">Rewrite for tittle</div>
+                            <div id="fyear" class="row fs-4" style="display: inline;">Rewrite for sinopsis</div>
+                            <div id="fdetails" class="row fs-4">Rewrite for sinopsis</div>
+                            <div id="frating" class="row fs-4">Rewrite for sinopsis</div>
+                            <div id="fduration" class="row fs-4">Rewrite for sinopsis</div>
+                            <div id="fdirectors" class="row fs-4">Rewrite for sinopsis</div>
+                            <div id="fstars" class="row fs-4">Rewrite for sinopsis</div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- End My Modal -->
+            <!-- Show popular Movie -->
+            <!-- End Slideshow -->
+            <!-- End Show popular Movie -->
+            <!-- Hasil anotasi data terbaru -->
+            <h2 class="pt-3 text-center">Hasil Anotasi Data Terbaru</h2>
+            <!-- Show film with table with 4 col per row-->
+            <div class="container-fluid mb-5 pt-3" id="data-film"></div>
             <!-- End Show Film table-->
-        </section>
+        </div>
         <!--Container Main end-->
 
         <!-- Script Bundle Boostrap 5.2 -->
@@ -291,3 +242,11 @@
     </body>
 
 </html>
+}
+<?php 
+}else{
+
+     header("Location: Login-WEB/index.php");
+     exit();
+}
+?>
