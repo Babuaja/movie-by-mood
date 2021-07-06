@@ -42,7 +42,7 @@ var modal = document.getElementById("myModal");
 //get body for overflow (scroll) disable
 var body = document.getElementById("body-pd");
 //get image
-var img = document.getElementsByClassName('targetImg');
+// var img = document.getElementsByClassName('targetImg');
 //get close
 var fclose = document.getElementById("close");
 //get tittle
@@ -63,9 +63,45 @@ var buttonClose=document.getElementById("bclose");
 //hide section login
 var flogin = document.getElementById("Graph");
 
+// fungsi klik image detail
+const addClickImageDetail = function() {
+    const img = document.querySelectorAll('.targetImg');
+    for (const img_movie of img) {
+        img_movie.addEventListener('click', (e) => {
+            let this_movie;
+        
+            // search img source that match
+            for (movie of movies) {
+                if ( e.currentTarget.src === movie.data.gambar) {
+                    this_movie = movie.data;
+                }
+            }
+        
+            modal.style.display = "block";
+            ftittle.innerHTML = this_movie.judul;
+            fImg.src = this_movie.gambar;
+            details.innerHTML = this_movie.synopsis;
+            year.innerHTML = this_movie.tahun;
+            rating.innerHTML = this_movie.rating;
+            duration.innerHTML = this_movie.durasi;
+            directors.innerHTML = this_movie.director;
+            stars.innerHTML = this_movie.stars;
+            body.style.overflow = "hidden";
+        
+        });
+    }
+    
+    buttonClose.onclick = function(){
+        modal.style.display = 'none';
+        body.style.overflow = 'visible';
+        console.log("masujk sad");
+    }
+}
+
 // show all film
 let movie_location = document.querySelector('#data-film');
 let movie_temp = ``;
+
 
 let count_movie = 0;
 for (let i=0; i<25; i++) {
@@ -88,37 +124,51 @@ for (let i=0; i<25; i++) {
     movie_temp += `</div>`;
 }
 
-if(movie_location!=null){
-    //console.log(movie_location);
-    movie_location.innerHTML += movie_temp;
-}
-    
-        
-for (const img_movie of img) {
-    img_movie.addEventListener('click', (e) => {
-        let this_movie;
+movie_location.innerHTML += movie_temp;
 
-        // search img source that match
-        for (movie of movies) {
-            if ( e.currentTarget.src === movie.data.gambar) {
-                this_movie = movie.data;
+// tombol search
+// const search_btn = document.querySelector(`.button-sach`)
+
+// tombol mood
+const mood_btn = document.querySelectorAll(`.mood-button`);
+let filtered_movie = [];
+for (mood of mood_btn) {
+    mood.addEventListener('click', (e) => {
+        filtered_movie = movies.filter( (movie) => {
+            for (value of movie.completions[0].result) {
+                if (e.currentTarget.innerText == value.value.labels[0]) {
+                    return true;
+                }
             }
+        });
+
+        movie_location.innerHTML = '';
+        movie_temp = ``;
+
+        let count_movie = 0;
+        for (let i=0; count_movie < filtered_movie.length; i++) {
+            // baris
+            movie_temp += `<div class="row mb-2">`;
+        
+            for (let j=0; (j<4) && count_movie < filtered_movie.length; j++) {
+                // kolom
+                movie_temp += `
+                    <div class="col-sm">
+                        <img
+                            src="${filtered_movie[count_movie].data.gambar}"
+                            class="img-fluid mx-auto d-block targetImg lozad"
+                            />
+                    </div>
+                `
+                count_movie++;
+            } 
+            movie_temp += `</div>`;
         }
-        modal.style.display = "block";
-        ftittle.innerHTML = this_movie.judul;
-        fImg.src = this_movie.gambar;
-        details.innerHTML = this_movie.synopsis;
-        year.innerHTML = this_movie.tahun;
-        rating.innerHTML = this_movie.rating;
-        duration.innerHTML = this_movie.durasi;
-        directors.innerHTML = this_movie.director;
-        stars.innerHTML = this_movie.stars;
-        body.style.overflow = "hidden";
+        movie_location.innerHTML += movie_temp;
 
+        addClickImageDetail();
     });
+
 }
 
-buttonClose.onclick = function(){
-    modal.style.display = 'none';
-    body.style.overflow = 'visible';
-}
+addClickImageDetail();
