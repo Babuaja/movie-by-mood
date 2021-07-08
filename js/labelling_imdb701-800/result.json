@@ -1,0 +1,6092 @@
+[
+  {
+    "completions": [
+      {
+        "created_at": 1624941634,
+        "id": 53001,
+        "lead_time": 69.664,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "grJpHRxZ4p",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 153,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 126,
+              "text": "manhunt to a war-zone world"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "J.J. Abrams"
+      ],
+      "durasi": 132,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTk2NzczOTgxNF5BMl5BanBnXkFtZTcwODQ5ODczOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "gross": 228.78,
+      "judul": "Star Trek Into Darkness",
+      "rating": 7.7,
+      "stars": [
+        "Chris Pine",
+        "Zachary Quinto",
+        "Zoe Saldana",
+        "Benedict Cumberbatch"
+      ],
+      "synopsis": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
+      "tahun": 2013,
+      "votes": 467167,
+      "waktu_scrape": "09:25:31"
+    },
+    "id": 53
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938368,
+        "id": 48001,
+        "lead_time": 127.725,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ozS8JHh428",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 136,
+              "labels": [
+                "Happy"
+              ],
+              "start": 60,
+              "text": "finds a connection to the students and teachers during his latest assignment"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Tony Kaye"
+      ],
+      "durasi": 98,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTM3NzQzMDA5Ml5BMl5BanBnXkFtZTcwODA5NTcyNw@@._V1_UY98_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama"
+      ],
+      "gross": 0.07,
+      "judul": "Detachment",
+      "rating": 7.7,
+      "stars": [
+        "Adrien Brody",
+        "Christina Hendricks",
+        "Marcia Gay Harden",
+        "Lucy Liu"
+      ],
+      "synopsis": "A substitute teacher who drifts from classroom to classroom finds a connection to the students and teachers during his latest assignment.",
+      "tahun": 2011,
+      "votes": 78958,
+      "waktu_scrape": "09:25:29"
+    },
+    "id": 48
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943414,
+        "id": 40001,
+        "lead_time": 98.478,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "pMUmVnqECr",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 267,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 263,
+              "text": "love"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "z91d27r19u",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 224,
+              "labels": [
+                "Sad"
+              ],
+              "start": 211,
+              "text": "loses herself"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "4HuoL6oIIO",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 276,
+              "labels": [
+                "Sad"
+              ],
+              "start": 272,
+              "text": "loss"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Abdellatif Kechiche"
+      ],
+      "durasi": 180,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTQ5NTg5ODk4OV5BMl5BanBnXkFtZTgwODc4MTMzMDE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "gross": 2.2,
+      "judul": "Blue Is the Warmest Colour",
+      "rating": 7.7,
+      "stars": [
+        "Léa Seydoux",
+        "Adèle Exarchopoulos",
+        "Salim Kechiouche",
+        "Aurélien Recoing"
+      ],
+      "synopsis": "Adèle's life is changed when she meets Emma, a young woman with blue hair, who will allow her to discover desire and to assert herself as a woman and as an adult. In front of others, Adèle grows, seeks herself, loses herself, and ultimately finds herself through love and loss.",
+      "tahun": 2013,
+      "votes": 141598,
+      "waktu_scrape": "09:25:26"
+    },
+    "id": 40
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944124,
+        "id": 45001,
+        "lead_time": 174.489,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "BaxeSWnMQ0",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 92,
+              "labels": [
+                "Lonely"
+              ],
+              "start": 79,
+              "text": "estranged son"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "plIXPvIapo",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 69,
+              "labels": [
+                "Happy"
+              ],
+              "start": 30,
+              "text": "makes the trip from Montana to Nebraska"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "yaUpYA1v5Z",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 160,
+              "labels": [
+                "Humorous"
+              ],
+              "start": 102,
+              "text": "to claim a million-dollar Mega Sweepstakes Marketing prize"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alexander Payne"
+      ],
+      "durasi": 115,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOGQzODdlMDktNzU4ZC00N2M3LWFkYTAtYTM1NTE0ZWI5YTg4XkEyXkFqcGdeQXVyMTA1NTM1NDI2._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Drama"
+      ],
+      "gross": 17.65,
+      "judul": "Nebraska",
+      "rating": 7.7,
+      "stars": [
+        "Bruce Dern",
+        "Will Forte",
+        "June Squibb",
+        "Bob Odenkirk"
+      ],
+      "synopsis": "An aging, booze-addled father makes the trip from Montana to Nebraska with his estranged son in order to claim a million-dollar Mega Sweepstakes Marketing prize.",
+      "tahun": 2013,
+      "votes": 113892,
+      "waktu_scrape": "09:25:28"
+    },
+    "id": 45
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943171,
+        "id": 30001,
+        "lead_time": 102.879,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "XV5PXdU6Xa",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 106,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 62,
+              "text": "race against time after a mission gone wrong"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Christopher McQuarrie"
+      ],
+      "durasi": 147,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNjRlZmM0ODktY2RjNS00ZDdjLWJhZGYtNDljNWZkMGM5MTg0XkEyXkFqcGdeQXVyNjAwMjI5MDk@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "gross": 220.16,
+      "judul": "Mission: Impossible - Fallout",
+      "rating": 7.7,
+      "stars": [
+        "Tom Cruise",
+        "Henry Cavill",
+        "Ving Rhames",
+        "Simon Pegg"
+      ],
+      "synopsis": "Ethan Hunt and his IMF team, along with some familiar allies, race against time after a mission gone wrong.",
+      "tahun": 2018,
+      "votes": 300350,
+      "waktu_scrape": "09:25:21"
+    },
+    "id": 30
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938428,
+        "id": 91001,
+        "lead_time": 51.728,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "OmnAL144mb",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 112,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 106,
+              "text": "battle"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Edward Zwick"
+      ],
+      "durasi": 154,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMzkyNzQ1Mzc0NV5BMl5BanBnXkFtZTcwODg3MzUzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Drama"
+      ],
+      "gross": 111.11,
+      "judul": "The Last Samurai",
+      "rating": 7.7,
+      "stars": [
+        "Tom Cruise",
+        "Ken Watanabe",
+        "Billy Connolly",
+        "William Atherton"
+      ],
+      "synopsis": "An American military advisor embraces the Samurai culture he was hired to destroy after he is captured in battle.",
+      "tahun": 2003,
+      "votes": 406792,
+      "waktu_scrape": "09:25:45"
+    },
+    "id": 91
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941045,
+        "id": 8001,
+        "lead_time": 49.941,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Rv5LWuSjl2",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 135,
+              "labels": [
+                "Happy"
+              ],
+              "start": 31,
+              "text": "a magical nanny employs music and adventure to help two neglected children become closer to their father"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Robert Stevenson"
+      ],
+      "durasi": 139,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNmJkODczNjItNDI5Yy00MGI1LTkyOWItZDNmNjM4ZGI1ZDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "gross": 102.27,
+      "judul": "Mary Poppins",
+      "rating": 7.8,
+      "stars": [
+        "Julie Andrews",
+        "Dick Van Dyke",
+        "David Tomlinson",
+        "Glynis Johns"
+      ],
+      "synopsis": "In turn of the century London, a magical nanny employs music and adventure to help two neglected children become closer to their father.",
+      "tahun": 1964,
+      "votes": 160696,
+      "waktu_scrape": "09:25:13"
+    },
+    "id": 8
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937774,
+        "id": 76001,
+        "lead_time": 74.695,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Va4ynrh1nm",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 127,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 112,
+              "text": "First World War"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "x5h-bv4RVB",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 173,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 131,
+              "text": "gain insight into each other's way of life"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Christian Carion"
+      ],
+      "durasi": 116,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTQyODczNjU3NF5BMl5BanBnXkFtZTcwNjQ0NDIzMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "History",
+        "Music"
+      ],
+      "gross": 1.05,
+      "judul": "Joyeux Noel",
+      "rating": 7.7,
+      "stars": [
+        "Diane Kruger",
+        "Benno Fürmann",
+        "Guillaume Canet",
+        "Natalie Dessay"
+      ],
+      "synopsis": "In December 1914, an unofficial Christmas truce on the Western Front allows soldiers from opposing sides of the First World War to gain insight into each other's way of life.",
+      "tahun": 2005,
+      "votes": 28277,
+      "waktu_scrape": "09:25:39"
+    },
+    "id": 76
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624936930,
+        "id": 62001,
+        "lead_time": 130.619,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "PhL1-9uFqa",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 40,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 33,
+              "text": "against"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "_koMhC-Kai",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 54,
+              "labels": [
+                "Tense"
+              ],
+              "start": 50,
+              "text": "evil"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "DugPFrXnSe",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 186,
+              "labels": [
+                "Tense"
+              ],
+              "start": 167,
+              "text": "the Deathly Hallows"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "David Yates"
+      ],
+      "durasi": 146,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "gross": 295.98,
+      "judul": "Harry Potter and the Deathly Hallows: Part 1",
+      "rating": 7.7,
+      "stars": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Bill Nighy"
+      ],
+      "synopsis": "As Harry, Ron, and Hermione race against time and evil to destroy the Horcruxes, they uncover the existence of the three most powerful objects in the wizarding world: the Deathly Hallows.",
+      "tahun": 2010,
+      "votes": 491224,
+      "waktu_scrape": "09:25:34"
+    },
+    "id": 62
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941694,
+        "id": 32001,
+        "lead_time": 58.799,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "KQVfh9UMdl",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 40,
+              "labels": [
+                "Tense"
+              ],
+              "start": 32,
+              "text": "vampires"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "L2Q8RH1-_B",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 110,
+              "labels": [
+                "Humorous"
+              ],
+              "start": 32,
+              "text": "vampires who are finding that modern life has them struggling with the mundane"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Jemaine Clement",
+        "Taika Waititi"
+      ],
+      "durasi": 86,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMjAwNDA5NzEwM15BMl5BanBnXkFtZTgwMTA1MDUyNDE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Horror"
+      ],
+      "gross": 3.33,
+      "judul": "What We Do in the Shadows",
+      "rating": 7.7,
+      "stars": [
+        "Jemaine Clement",
+        "Taika Waititi",
+        "Cori Gonzalez-Macuer",
+        "Jonny Brugh"
+      ],
+      "synopsis": "Viago, Deacon and Vladislav are vampires who are finding that modern life has them struggling with the mundane - like paying rent, keeping up with the chore wheel, trying to get into nightclubs and overcoming flatmate conflicts.",
+      "tahun": 2014,
+      "votes": 162320,
+      "waktu_scrape": "09:25:22"
+    },
+    "id": 32
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937562,
+        "id": 85001,
+        "lead_time": 107.545,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "tRCzvHnBdU",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 78,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 58,
+              "text": "doubt his own sanity"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Brad Anderson"
+      ],
+      "durasi": 101,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNjk1NzBlY2YtNjJmNi00YTVmLWI2OTgtNDUxNDE5NjUzZmE0XkEyXkFqcGdeQXVyNTc1NTQxODI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "gross": 1.08,
+      "judul": "The Machinist",
+      "rating": 7.7,
+      "stars": [
+        "Christian Bale",
+        "Jennifer Jason Leigh",
+        "Aitana Sánchez-Gijón",
+        "John Sharian"
+      ],
+      "synopsis": "An industrial worker who hasn't slept in a year begins to doubt his own sanity.",
+      "tahun": 2004,
+      "votes": 364448,
+      "waktu_scrape": "09:25:43"
+    },
+    "id": 85
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943713,
+        "id": 90001,
+        "lead_time": 59.594,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "8v8HjfOTfZ",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 142,
+              "labels": [
+                "Tense"
+              ],
+              "start": 126,
+              "text": "sinister secrets"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "g2ojTXA1h_",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 108,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 97,
+              "text": "frustrating"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Henry Selick"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMzQxNjM5NzkxNV5BMl5BanBnXkFtZTcwMzg5NDMwMg@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Drama",
+        "Family"
+      ],
+      "gross": 75.29,
+      "judul": "Coraline",
+      "rating": 7.7,
+      "stars": [
+        "Dakota Fanning",
+        "Teri Hatcher",
+        "John Hodgman",
+        "Jennifer Saunders"
+      ],
+      "synopsis": "An adventurous 11-year-old girl finds another world that is a strangely idealized version of her frustrating home, but it has sinister secrets.",
+      "tahun": 2009,
+      "votes": 202517,
+      "waktu_scrape": "09:25:45"
+    },
+    "id": 90
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944306,
+        "id": 21001,
+        "lead_time": 52.134,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Mkh-hqJTRM",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 136,
+              "labels": [
+                "Tense"
+              ],
+              "start": 129,
+              "text": "monster"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "James Whale"
+      ],
+      "durasi": 75,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTUzMzAzMzEzNV5BMl5BanBnXkFtZTgwOTg1NTAwMjE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "gross": 4.36,
+      "judul": "The Bride of Frankenstein",
+      "rating": 7.8,
+      "stars": [
+        "Boris Karloff",
+        "Elsa Lanchester",
+        "Colin Clive",
+        "Valerie Hobson"
+      ],
+      "synopsis": "Mary Shelley reveals the main characters of her novel survived: Dr. Frankenstein, goaded by an even madder scientist, builds his monster a mate.",
+      "tahun": 1935,
+      "votes": 44247,
+      "waktu_scrape": "09:25:18"
+    },
+    "id": 21
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946224,
+        "id": 68001,
+        "lead_time": 6.953,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "6I8zBdw9eY",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 73,
+              "labels": [
+                "Happy"
+              ],
+              "start": 25,
+              "text": "Makoto acquires the power to travel back in time"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Mamoru Hosoda"
+      ],
+      "durasi": 98,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNzUxODI4MzgtNWZiOC00MmNlLWIyMzctNGE3ZGU0MzczMjk4XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR1,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "gross": 0.0,
+      "judul": "The Girl Who Leapt Through Time",
+      "rating": 7.7,
+      "stars": [
+        "Riisa Naka",
+        "Takuya Ishida",
+        "Mitsutaka Itakura",
+        "Ayami Kakiuchi"
+      ],
+      "synopsis": "A high-school girl named Makoto acquires the power to travel back in time, and decides to use it for her own personal benefits. Little does she know that she is affecting the lives of others just as much as she is her own.",
+      "tahun": 2006,
+      "votes": 61772,
+      "waktu_scrape": "09:25:36"
+    },
+    "id": 68
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942287,
+        "id": 54001,
+        "lead_time": 46.386,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "zhBWTLJcuC",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 82,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 57,
+              "text": "fighting in the civil war"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Cary Joji Fukunaga"
+      ],
+      "durasi": 137,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTYwMzMzMDI0NF5BMl5BanBnXkFtZTgwNDQ3NjI3NjE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "War"
+      ],
+      "gross": 0.08,
+      "judul": "Beasts of No Nation",
+      "rating": 7.7,
+      "stars": [
+        "Abraham Attah",
+        "Emmanuel Affadzi",
+        "Ricky Adelayitor",
+        "Andrew Adote"
+      ],
+      "synopsis": "A drama based on the experiences of Agu, a child soldier fighting in the civil war of an unnamed African country.",
+      "tahun": 2015,
+      "votes": 75749,
+      "waktu_scrape": "09:25:31"
+    },
+    "id": 54
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942115,
+        "id": 16001,
+        "lead_time": 420.073,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "1IcQrKX6bI",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 20,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 17,
+              "text": "war"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "Idy1C-11dH",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 62,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 54,
+              "text": "gangster"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "0B72PX5kw5",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 104,
+              "labels": [
+                "Tense"
+              ],
+              "start": 84,
+              "text": "hurricane approaches"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "John Huston"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BODI3YzNiZTUtYjEyZS00ODkwLWE2ZDUtNGJmMTNiYTc4ZTM4XkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "gross": 0.0,
+      "judul": "Key Largo",
+      "rating": 7.8,
+      "stars": [
+        "Humphrey Bogart",
+        "Edward G. Robinson",
+        "Lauren Bacall",
+        "Lionel Barrymore"
+      ],
+      "synopsis": "A man visits his war buddy's family hotel and finds a gangster running things. As a hurricane approaches, the two end up confronting each other.",
+      "tahun": 1948,
+      "votes": 37641,
+      "waktu_scrape": "09:25:16"
+    },
+    "id": 16
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938586,
+        "id": 55001,
+        "lead_time": 77.392,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "XnByhTJGwD",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 117,
+              "labels": [
+                "Angry"
+              ],
+              "start": 113,
+              "text": "sued"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "ukKoS_swPT",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 69,
+              "labels": [
+                "Happy"
+              ],
+              "start": 19,
+              "text": "Mark Zuckerberg creates the social networking site"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "David Fincher"
+      ],
+      "durasi": 120,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama"
+      ],
+      "gross": 96.96,
+      "judul": "The Social Network",
+      "rating": 7.7,
+      "stars": [
+        "Jesse Eisenberg",
+        "Andrew Garfield",
+        "Justin Timberlake",
+        "Rooney Mara"
+      ],
+      "synopsis": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business.",
+      "tahun": 2010,
+      "votes": 640633,
+      "waktu_scrape": "09:25:31"
+    },
+    "id": 55
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939975,
+        "id": 44001,
+        "lead_time": 47.424,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "qcL-Cc9yMT",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 93,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 80,
+              "text": "falls in love"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "vr9yoznok3",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 34,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 17,
+              "text": "chases his dreams"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "hG2OQofKSr",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 62,
+              "labels": [
+                "Happy"
+              ],
+              "start": 18,
+              "text": "hases his dreams of becoming a big Rock star"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Imtiaz Ali"
+      ],
+      "durasi": 159,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTc3NzAxMjg4M15BMl5BanBnXkFtZTcwMDc2ODQwNw@@._V1_UY98_CR3,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "gross": 0.99,
+      "judul": "Rockstar",
+      "rating": 7.7,
+      "stars": [
+        "Ranbir Kapoor",
+        "Nargis Fakhri",
+        "Shammi Kapoor",
+        "Kumud Mishra"
+      ],
+      "synopsis": "Janardhan Jakhar chases his dreams of becoming a big Rock star, during which he falls in love with Heer.",
+      "tahun": 2011,
+      "votes": 40725,
+      "waktu_scrape": "09:25:27"
+    },
+    "id": 44
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940395,
+        "id": 52001,
+        "lead_time": 84.974,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "-7ROCQpwt7",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 39,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 32,
+              "text": "survive"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "Xr-PXPiiDd",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 87,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 49,
+              "text": "accident leaves them stranded in space"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "pV4zZp0Wci",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 28,
+              "labels": [
+                "Happy"
+              ],
+              "start": 0,
+              "text": "Two astronauts work together"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alfonso Cuarón"
+      ],
+      "durasi": 91,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "gross": 274.09,
+      "judul": "Gravity",
+      "rating": 7.7,
+      "stars": [
+        "Sandra Bullock",
+        "George Clooney",
+        "Ed Harris",
+        "Orto Ignatiussen"
+      ],
+      "synopsis": "Two astronauts work together to survive after an accident leaves them stranded in space.",
+      "tahun": 2013,
+      "votes": 780373,
+      "waktu_scrape": "09:25:30"
+    },
+    "id": 52
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946657,
+        "id": 34001,
+        "lead_time": 43.089,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "nVf0fzhQs8",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 84,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 13,
+              "text": " relationship between the famous physicist Stephen Hawking and his wife"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "James Marsh"
+      ],
+      "durasi": 123,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTAwMTU4MDA3NDNeQTJeQWpwZ15BbWU4MDk4NTMxNTIx._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 35.89,
+      "judul": "The Theory of Everything",
+      "rating": 7.7,
+      "stars": [
+        "Eddie Redmayne",
+        "Felicity Jones",
+        "Tom Prior",
+        "Sophie Perry"
+      ],
+      "synopsis": "A look at the relationship between the famous physicist Stephen Hawking and his wife.",
+      "tahun": 2014,
+      "votes": 414716,
+      "waktu_scrape": "09:25:23"
+    },
+    "id": 34
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624947310,
+        "id": 27001,
+        "lead_time": 10556.759,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "f2WIA5pYfE",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 12,
+              "labels": [
+                "Humorous"
+              ],
+              "start": 0,
+              "text": "Foul-mouthed"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "toSqKjkTJb",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 29,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 20,
+              "text": "mercenary"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "T5AeW_NTmg",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 123,
+              "labels": [
+                "Happy"
+              ],
+              "start": 104,
+              "text": "protect a young boy"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "David Leitch"
+      ],
+      "durasi": 119,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY98_CR15,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "gross": 324.59,
+      "judul": "Deadpool 2",
+      "rating": 7.7,
+      "stars": [
+        "Ryan Reynolds",
+        "Josh Brolin",
+        "Morena Baccarin",
+        "Julian Dennison"
+      ],
+      "synopsis": "Foul-mouthed mutant mercenary Wade Wilson (a.k.a. Deadpool) assembles a team of fellow mutant rogues to protect a young boy with supernatural abilities from the brutal, time-traveling cyborg Cable.",
+      "tahun": 2018,
+      "votes": 499815,
+      "waktu_scrape": "09:25:20"
+    },
+    "id": 27
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942236,
+        "id": 73001,
+        "lead_time": 119.6,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "pNWMR-W3Ra",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 50,
+              "labels": [
+                "Tense"
+              ],
+              "start": 9,
+              "text": "the events of the brutal Ugandan dictator"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Kevin Macdonald"
+      ],
+      "durasi": 123,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMjM1NTkxNjkzMl5BMl5BanBnXkFtZTgwNDgwMDAxMzE@._V1_UY98_CR1,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "gross": 17.61,
+      "judul": "The Last King of Scotland",
+      "rating": 7.7,
+      "stars": [
+        "James McAvoy",
+        "Forest Whitaker",
+        "Gillian Anderson",
+        "Kerry Washington"
+      ],
+      "synopsis": "Based on the events of the brutal Ugandan dictator Idi Amin's regime as seen by his personal physician during the 1970s.",
+      "tahun": 2006,
+      "votes": 177949,
+      "waktu_scrape": "09:25:38"
+    },
+    "id": 73
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941412,
+        "id": 49001,
+        "lead_time": 4678.682,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "cnMo9hbTNM",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 41,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 34,
+              "text": "fiancée"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "_OxxST6hvh",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 24,
+              "labels": [
+                "Happy"
+              ],
+              "start": 11,
+              "text": "trip to Paris"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Woody Allen"
+      ],
+      "durasi": 94,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Fantasy",
+        "Romance"
+      ],
+      "gross": 56.82,
+      "judul": "Midnight in Paris",
+      "rating": 7.7,
+      "stars": [
+        "Owen Wilson",
+        "Rachel McAdams",
+        "Kathy Bates",
+        "Kurt Fuller"
+      ],
+      "synopsis": "While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.",
+      "tahun": 2011,
+      "votes": 395183,
+      "waktu_scrape": "09:25:29"
+    },
+    "id": 49
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943503,
+        "id": 18001,
+        "lead_time": 87.91,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "sPde1a7cDt",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 33,
+              "labels": [
+                "Tense"
+              ],
+              "start": 25,
+              "text": "murdered"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "George Cukor"
+      ],
+      "durasi": 114,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNTI0Y2Q1YjAtZTJhOS00NTZjLTk5ZWItNzJiMTM1NGVjZThlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "gross": 0.0,
+      "judul": "Gaslight",
+      "rating": 7.8,
+      "stars": [
+        "Charles Boyer",
+        "Ingrid Bergman",
+        "Joseph Cotten",
+        "May Whitty"
+      ],
+      "synopsis": "Years after her aunt was murdered in her home, a young woman moves back into the house with her new husband. However, he has a secret that he will do anything to protect, even if it means driving his wife insane.",
+      "tahun": 1944,
+      "votes": 25443,
+      "waktu_scrape": "09:25:17"
+    },
+    "id": 18
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624945602,
+        "id": 82001,
+        "lead_time": 55.737,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "6ei6o5s7h7",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 93,
+              "labels": [
+                "Sad"
+              ],
+              "start": 88,
+              "text": " loss"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Paul Haggis"
+      ],
+      "durasi": 112,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTk1OTA1MjIyNV5BMl5BanBnXkFtZTcwODQxMTkyMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "gross": 54.58,
+      "judul": "Crash",
+      "rating": 7.7,
+      "stars": [
+        "Don Cheadle",
+        "Sandra Bullock",
+        "Thandiwe Newton",
+        "Karina Arroyave"
+      ],
+      "synopsis": "Los Angeles citizens with vastly separate lives collide in interweaving stories of race, loss and redemption.",
+      "tahun": 2004,
+      "votes": 423505,
+      "waktu_scrape": "09:25:42"
+    },
+    "id": 82
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938080,
+        "id": 10001,
+        "lead_time": 51.821,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "fc11uRQ7ts",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 26,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 13,
+              "text": "love triangle"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "François Truffaut"
+      ],
+      "durasi": 105,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZTM1MTRiNDctMTFiMC00NGM1LTkyMWQtNTY1M2JjZDczOWQ3XkEyXkFqcGdeQXVyMDI3OTIzOA@@._V1_UY98_CR3,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "gross": 0.0,
+      "judul": "Jules and Jim",
+      "rating": 7.8,
+      "stars": [
+        "Jeanne Moreau",
+        "Oskar Werner",
+        "Henri Serre",
+        "Vanna Urbino"
+      ],
+      "synopsis": "Decades of a love triangle concerning two friends and an impulsive woman.",
+      "tahun": 1962,
+      "votes": 38574,
+      "waktu_scrape": "09:25:13"
+    },
+    "id": 10
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941339,
+        "id": 66001,
+        "lead_time": 107.457,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "_9nFKGcwLt",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 14,
+              "labels": [
+                "Sad"
+              ],
+              "start": 0,
+              "text": "Grief-stricken"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "7ilwJOJe2u",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 166,
+              "labels": [
+                "Tense"
+              ],
+              "start": 153,
+              "text": "missing child"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Clint Eastwood"
+      ],
+      "durasi": 141,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTA1Mzg3NjIxNV5BMl5BanBnXkFtZTcwNzU2NTc5MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama"
+      ],
+      "gross": 35.74,
+      "judul": "Changeling",
+      "rating": 7.7,
+      "stars": [
+        "Angelina Jolie",
+        "Colm Feore",
+        "Amy Ryan",
+        "Gattlin Griffith"
+      ],
+      "synopsis": "Grief-stricken mother Christine Collins (Angelina Jolie) takes on the L.A.P.D. to her own detriment when it tries to pass off an obvious impostor as her missing child.",
+      "tahun": 2008,
+      "votes": 242795,
+      "waktu_scrape": "09:25:35"
+    },
+    "id": 66
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937697,
+        "id": 23001,
+        "lead_time": 61.971,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "d0EWgi8Owu",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 47,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 39,
+              "text": "gangster"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Howard Hawks",
+        "Richard Rosson"
+      ],
+      "durasi": 93,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYmMxZTU2ZDUtM2Y1MS00ZWFmLWJlN2UtNzI0OTJiOTYzMTk3XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "gross": 0.0,
+      "judul": "Scarface",
+      "rating": 7.8,
+      "stars": [
+        "Paul Muni",
+        "Ann Dvorak",
+        "Karen Morley",
+        "Osgood Perkins"
+      ],
+      "synopsis": "An ambitious and nearly insane violent gangster climbs the ladder of success in the mob, but his weaknesses prove to be his downfall.",
+      "tahun": 1932,
+      "votes": 25890,
+      "waktu_scrape": "09:25:19"
+    },
+    "id": 23
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940176,
+        "id": 33001,
+        "lead_time": 68.973,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "xLyhUdguW1",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 130,
+              "labels": [
+                "Lonely"
+              ],
+              "start": 125,
+              "text": "alone"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "_LBxc-oVM-",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 186,
+              "labels": [
+                "Tense"
+              ],
+              "start": 176,
+              "text": "mysterious"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "James Simone",
+        "Hiromasa Yonebayashi"
+      ],
+      "durasi": 103,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZTlmYTJmMWEtNDRhNy00ODc1LTg2OTMtMjk2ODJhNTA4YTE1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY98_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Drama",
+        "Family"
+      ],
+      "gross": 0.77,
+      "judul": "When Marnie Was There",
+      "rating": 7.7,
+      "stars": [
+        "Sara Takatsuki",
+        "Kasumi Arimura",
+        "Nanako Matsushima",
+        "Susumu Terajima"
+      ],
+      "synopsis": "Due to 12 y.o. Anna's asthma, she's sent to stay with relatives of her guardian in the Japanese countryside. She likes to be alone, sketching. She befriends Marnie. Who is the mysterious, blonde Marnie.",
+      "tahun": 2014,
+      "votes": 34693,
+      "waktu_scrape": "09:25:23"
+    },
+    "id": 33
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939797,
+        "id": 96001,
+        "lead_time": 75.678,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "814D4zfH4N",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 10,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 2,
+              "text": "lovelorn"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "pnorEaak1f",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 41,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 32,
+              "text": "desperate"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Spike Jonze"
+      ],
+      "durasi": 115,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZjIwZWU0ZDItNzBlNS00MDIwLWFlZjctZTJjODdjZWYxNzczL2ltYWdlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "gross": 22.25,
+      "judul": "Adaptation.",
+      "rating": 7.7,
+      "stars": [
+        "Nicolas Cage",
+        "Meryl Streep",
+        "Chris Cooper",
+        "Tilda Swinton"
+      ],
+      "synopsis": "A lovelorn screenwriter becomes desperate as he tries and fails to adapt 'The Orchid Thief' by Susan Orlean for the screen.",
+      "tahun": 2002,
+      "votes": 181465,
+      "waktu_scrape": "09:25:48"
+    },
+    "id": 96
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942782,
+        "id": 31001,
+        "lead_time": 180.755,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "n3QzrP91Np",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 122,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 97,
+              "text": "visiting his wife's grave"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "XFujwqvGUm",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 30,
+              "labels": [
+                "Lonely"
+              ],
+              "start": 22,
+              "text": "isolated"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "Ep1q7k1BdU",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 152,
+              "labels": [
+                "Sad"
+              ],
+              "start": 136,
+              "text": "given up on life"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Hannes Holm"
+      ],
+      "durasi": 116,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMjE0NDUyOTc2MV5BMl5BanBnXkFtZTgwODk2NzU3OTE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 3.36,
+      "judul": "A Man Called Ove",
+      "rating": 7.7,
+      "stars": [
+        "Rolf Lassgård",
+        "Bahar Pars",
+        "Filip Berg",
+        "Ida Engvoll"
+      ],
+      "synopsis": "Ove, an ill-tempered, isolated retiree who spends his days enforcing block association rules and visiting his wife's grave, has finally given up on life just as an unlikely friendship develops with his boisterous new neighbors.",
+      "tahun": 2015,
+      "votes": 49282,
+      "waktu_scrape": "09:25:22"
+    },
+    "id": 31
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942447,
+        "id": 37001,
+        "lead_time": 81.396,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "bRsooVA5ck",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 81,
+              "labels": [
+                "Humorous"
+              ],
+              "start": 48,
+              "text": "making parodies of classic movies"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "08n8Z1DVcc",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 210,
+              "labels": [
+                "Sad"
+              ],
+              "start": 189,
+              "text": "diagnosed with cancer"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alfonso Gomez-Rejon"
+      ],
+      "durasi": 105,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNTA1NzUzNjY4MV5BMl5BanBnXkFtZTgwNDU0MDI0NTE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "gross": 6.74,
+      "judul": "Me and Earl and the Dying Girl",
+      "rating": 7.7,
+      "stars": [
+        "Thomas Mann",
+        "RJ Cyler",
+        "Olivia Cooke",
+        "Nick Offerman"
+      ],
+      "synopsis": "High schooler Greg, who spends most of his time making parodies of classic movies with his co-worker Earl, finds his outlook forever altered after befriending a classmate who has just been diagnosed with cancer.",
+      "tahun": 2015,
+      "votes": 125397,
+      "waktu_scrape": "09:25:24"
+    },
+    "id": 37
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624945077,
+        "id": 81001,
+        "lead_time": 60.467,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "wxT2I6Lgva",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 109,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 103,
+              "text": "battle"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "htu_nR0y-l",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 53,
+              "labels": [
+                "Tense"
+              ],
+              "start": 47,
+              "text": "outlaw"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "James Mangold"
+      ],
+      "durasi": 122,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "gross": 53.61,
+      "judul": "3:10 to Yuma",
+      "rating": 7.7,
+      "stars": [
+        "Russell Crowe",
+        "Christian Bale",
+        "Ben Foster",
+        "Logan Lerman"
+      ],
+      "synopsis": "A small-time rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.",
+      "tahun": 2007,
+      "votes": 293626,
+      "waktu_scrape": "09:25:41"
+    },
+    "id": 81
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944823,
+        "id": 83001,
+        "lead_time": 82.847,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "T98Cynhzub",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 51,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 43,
+              "text": "gangster"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Stephen Chow"
+      ],
+      "durasi": 99,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMjZiOTNlMzYtZWYwZS00YWJjLTk5NDgtODkwNjRhMDI0MjhjXkEyXkFqcGdeQXVyMjgyNjk3MzE@._V1_UY98_CR1,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Comedy",
+        "Fantasy"
+      ],
+      "gross": 17.11,
+      "judul": "Kung Fu Hustle",
+      "rating": 7.7,
+      "stars": [
+        "Stephen Chow",
+        "Wah Yuen",
+        "Qiu Yuen",
+        "Siu-Lung Leung"
+      ],
+      "synopsis": "In Shanghai, China in the 1940s, a wannabe gangster aspires to join the notorious \"Axe Gang\" while residents of a housing complex exhibit extraordinary powers in defending their turf.",
+      "tahun": 2004,
+      "votes": 129686,
+      "waktu_scrape": "09:25:42"
+    },
+    "id": 83
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946401,
+        "id": 41001,
+        "lead_time": 171.155,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "asjt30nqAR",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 44,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 0,
+              "text": "Elise and Didier fall in love at first sight"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "mKLJXEeN0f",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 221,
+              "labels": [
+                "Sad"
+              ],
+              "start": 152,
+              "text": "When their daughter becomes seriously ill, their love is put on trial"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Felix van Groeningen"
+      ],
+      "durasi": 111,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTQzMzg2Nzg2MF5BMl5BanBnXkFtZTgwNjUzNzIzMDE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Music",
+        "Romance"
+      ],
+      "gross": 0.18,
+      "judul": "The Broken Circle Breakdown",
+      "rating": 7.7,
+      "stars": [
+        "Veerle Baetens",
+        "Johan Heldenbergh",
+        "Nell Cattrysse",
+        "Geert Van Rampelberg"
+      ],
+      "synopsis": "Elise and Didier fall in love at first sight, in spite of their differences. He talks, she listens. He's a romantic atheist, she's a religious realist. When their daughter becomes seriously ill, their love is put on trial.",
+      "tahun": 2012,
+      "votes": 39918,
+      "waktu_scrape": "09:25:26"
+    },
+    "id": 41
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938508,
+        "id": 3001,
+        "lead_time": 61.33,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "JgmMJgFRZW",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 98,
+              "labels": [
+                "Happy"
+              ],
+              "start": 78,
+              "text": "finding a new friend"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "John Schlesinger"
+      ],
+      "durasi": 113,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNTgwZmIzMmYtZjE3Yy00NzgzLTgxNmUtNjlmZDlkMzlhOTJkXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama"
+      ],
+      "gross": 44.79,
+      "judul": "Midnight Cowboy",
+      "rating": 7.8,
+      "stars": [
+        "Dustin Hoffman",
+        "Jon Voight",
+        "Sylvia Miles",
+        "John McGiver"
+      ],
+      "synopsis": "A naive hustler travels from Texas to New York City to seek personal fortune, finding a new friend in the process.",
+      "tahun": 1969,
+      "votes": 103029,
+      "waktu_scrape": "09:25:11"
+    },
+    "id": 3
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938238,
+        "id": 77001,
+        "lead_time": 135.178,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "b8qZC685TV",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 104,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 96,
+              "text": "romantic"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "IpDYNyjY-8",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 113,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 105,
+              "text": "troubles"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "DC8mjsZu73",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 139,
+              "labels": [
+                "Sad"
+              ],
+              "start": 132,
+              "text": "suicide"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Anton Corbijn"
+      ],
+      "durasi": 122,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNTEzOTYwMTcxN15BMl5BanBnXkFtZTcwNTgyNjI1MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Music"
+      ],
+      "gross": 0.87,
+      "judul": "Control",
+      "rating": 7.7,
+      "stars": [
+        "Sam Riley",
+        "Samantha Morton",
+        "Craig Parkinson",
+        "Alexandra Maria Lara"
+      ],
+      "synopsis": "A profile of Ian Curtis, the enigmatic singer of Joy Division whose personal, professional, and romantic troubles led him to commit suicide at the age of 23.",
+      "tahun": 2007,
+      "votes": 62376,
+      "waktu_scrape": "09:25:40"
+    },
+    "id": 77
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946550,
+        "id": 65001,
+        "lead_time": 70.837,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "cNQxhpinJb",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 69,
+              "labels": [
+                "Tense"
+              ],
+              "start": 7,
+              "text": "machine that allows therapists to enter their patients' dreams"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "Yn40Wl2ZMF",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 79,
+              "labels": [
+                "Angry"
+              ],
+              "start": 73,
+              "text": "stolen"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Satoshi Kon"
+      ],
+      "durasi": 90,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNDliMTMxOWEtODM3Yi00N2QwLTg4YTAtNTE5YzBlNTA2NjhlXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Drama",
+        "Fantasy"
+      ],
+      "gross": 0.88,
+      "judul": "Paprika",
+      "rating": 7.7,
+      "stars": [
+        "Megumi Hayashibara",
+        "Tôru Emori",
+        "Katsunosuke Hori",
+        "Tôru Furuya"
+      ],
+      "synopsis": "When a machine that allows therapists to enter their patients' dreams is stolen, all hell breaks loose. Only a young female therapist, Paprika, can stop it.",
+      "tahun": 2006,
+      "votes": 73804,
+      "waktu_scrape": "09:25:35"
+    },
+    "id": 65
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940993,
+        "id": 59001,
+        "lead_time": 66.902,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "C31vyHRZXE",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 137,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 102,
+              "text": "tries to reconcile with his ex-wife"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "David O. Russell"
+      ],
+      "durasi": 122,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTM2MTI5NzA3MF5BMl5BanBnXkFtZTcwODExNTc0OA@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 132.09,
+      "judul": "Silver Linings Playbook",
+      "rating": 7.7,
+      "stars": [
+        "Bradley Cooper",
+        "Jennifer Lawrence",
+        "Robert De Niro",
+        "Jacki Weaver"
+      ],
+      "synopsis": "After a stint in a mental institution, former teacher Pat Solitano moves back in with his parents and tries to reconcile with his ex-wife. Things get more challenging when Pat meets Tiffany, a mysterious girl with problems of her own.",
+      "tahun": 2012,
+      "votes": 671827,
+      "waktu_scrape": "09:25:33"
+    },
+    "id": 59
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944227,
+        "id": 89001,
+        "lead_time": 102.318,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ybyxGRtw0e",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 55,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 16,
+              "text": "a former CIA operative swears vengeance"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Tony Scott"
+      ],
+      "durasi": 146,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BODFlMmEwMDgtYjhmZi00ZTE5LTk2NWQtMWE1Y2M0NjkzOGYxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "gross": 77.91,
+      "judul": "Man on Fire",
+      "rating": 7.7,
+      "stars": [
+        "Denzel Washington",
+        "Christopher Walken",
+        "Dakota Fanning",
+        "Radha Mitchell"
+      ],
+      "synopsis": "In Mexico City, a former CIA operative swears vengeance on those who committed an unspeakable act against the family he was hired to protect.",
+      "tahun": 2004,
+      "votes": 334660,
+      "waktu_scrape": "09:25:45"
+    },
+    "id": 89
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938777,
+        "id": 39001,
+        "lead_time": 94.799,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "f2-HVt7gVx",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 22,
+              "labels": [
+                "Sad"
+              ],
+              "start": 15,
+              "text": "deserts"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "mzpZV_sWL9",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 135,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 107,
+              "text": "starts up a new relationship"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "SgOBI4wsu7",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 206,
+              "labels": [
+                "Sad"
+              ],
+              "start": 199,
+              "text": "divorce"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "E1jiqQ6anx",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 206,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 199,
+              "text": "divorce"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Asghar Farhadi"
+      ],
+      "durasi": 130,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTEwNDM1ODEwN15BMl5BanBnXkFtZTcwMzM0NDg0OQ@@._V1_UY98_CR3,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Mystery"
+      ],
+      "gross": 1.33,
+      "judul": "The Past",
+      "rating": 7.7,
+      "stars": [
+        "Bérénice Bejo",
+        "Tahar Rahim",
+        "Ali Mosaffa",
+        "Pauline Burlet"
+      ],
+      "synopsis": "An Iranian man deserts his French wife and her two children to return to his homeland. Meanwhile, his wife starts up a new relationship, a reality her husband confronts upon his wife's request for a divorce.",
+      "tahun": 2013,
+      "votes": 45717,
+      "waktu_scrape": "09:25:25"
+    },
+    "id": 39
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624947214,
+        "id": 58001,
+        "lead_time": 77.485,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Yn_ou6KkOy",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 12,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 0,
+              "text": "James Bond's"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "ytlP6mDdue",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 135,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 128,
+              "text": "destroy"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Sam Mendes"
+      ],
+      "durasi": 143,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMWZiNjE2OWItMTkwNy00ZWQzLWI0NTgtMWE0NjNiYTljN2Q1XkEyXkFqcGdeQXVyNzAwMjYxMzA@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "gross": 304.36,
+      "judul": "Skyfall",
+      "rating": 7.7,
+      "stars": [
+        "Daniel Craig",
+        "Javier Bardem",
+        "Naomie Harris",
+        "Judi Dench"
+      ],
+      "synopsis": "James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.",
+      "tahun": 2012,
+      "votes": 638947,
+      "waktu_scrape": "09:25:32"
+    },
+    "id": 58
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943947,
+        "id": 19001,
+        "lead_time": 65.72,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Wrpb_72f18",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 143,
+              "labels": [
+                "Tense"
+              ],
+              "start": 137,
+              "text": "killer"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alfred Hitchcock"
+      ],
+      "durasi": 108,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BM2I1YWM4NTYtYjA0Ny00ZDEwLTg3NTgtNzBjMzZhZTk1YTA1XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Film-Noir",
+        "Thriller"
+      ],
+      "gross": 0.0,
+      "judul": "Shadow of a Doubt",
+      "rating": 7.8,
+      "stars": [
+        "Teresa Wright",
+        "Joseph Cotten",
+        "Macdonald Carey",
+        "Henry Travers"
+      ],
+      "synopsis": "A young girl, overjoyed when her favorite uncle comes to visit the family, slowly begins to suspect that he is in fact the \"Merry Widow\" killer sought by the authorities.",
+      "tahun": 1943,
+      "votes": 60789,
+      "waktu_scrape": "09:25:17"
+    },
+    "id": 19
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943233,
+        "id": 43001,
+        "lead_time": 59.611,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "va-lqbZB0t",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 146,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 140,
+              "text": "battle"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Anthony Russo",
+        "Joe Russo"
+      ],
+      "durasi": 136,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMzA2NDkwODAwM15BMl5BanBnXkFtZTgwODk5MTgzMTE@._V1_UY98_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "gross": 259.77,
+      "judul": "Captain America: The Winter Soldier",
+      "rating": 7.7,
+      "stars": [
+        "Chris Evans",
+        "Samuel L. Jackson",
+        "Scarlett Johansson",
+        "Robert Redford"
+      ],
+      "synopsis": "As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.",
+      "tahun": 2014,
+      "votes": 757444,
+      "waktu_scrape": "09:25:27"
+    },
+    "id": 43
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939069,
+        "id": 28001,
+        "lead_time": 55.514,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "vUV9D_3Ww8",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 16,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 10,
+              "text": "hunter"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "mdgsHTE9mC",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 58,
+              "labels": [
+                "Tense"
+              ],
+              "start": 52,
+              "text": "murder"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Taylor Sheridan"
+      ],
+      "durasi": 107,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTUyMjU1OTUwM15BMl5BanBnXkFtZTgwMDg1NDQ2MjI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "gross": 33.8,
+      "judul": "Wind River",
+      "rating": 7.7,
+      "stars": [
+        "Elizabeth Olsen",
+        "Jeremy Renner",
+        "Graham Greene",
+        "Kelsey Asbille"
+      ],
+      "synopsis": "A veteran hunter helps an FBI agent investigate the murder of a young woman on a Wyoming Native American reservation.",
+      "tahun": 2017,
+      "votes": 215082,
+      "waktu_scrape": "09:25:21"
+    },
+    "id": 28
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939251,
+        "id": 4001,
+        "lead_time": 82.091,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "gNNRlVaK1R",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 38,
+              "labels": [
+                "Tense"
+              ],
+              "start": 28,
+              "text": "terrorized"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "e8_XkqMQJB",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 57,
+              "labels": [
+                "Angry"
+              ],
+              "start": 28,
+              "text": "terrorized by a trio of thugs"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Terence Young"
+      ],
+      "durasi": 108,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTQyNTAzOTI3NF5BMl5BanBnXkFtZTcwNTM0Mjg0Mg@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Thriller"
+      ],
+      "gross": 17.55,
+      "judul": "Wait Until Dark",
+      "rating": 7.8,
+      "stars": [
+        "Audrey Hepburn",
+        "Alan Arkin",
+        "Richard Crenna",
+        "Efrem Zimbalist Jr."
+      ],
+      "synopsis": "A recently blinded woman is terrorized by a trio of thugs while they search for a heroin-stuffed doll they believe is in her apartment.",
+      "tahun": 1967,
+      "votes": 28288,
+      "waktu_scrape": "09:25:11"
+    },
+    "id": 4
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946802,
+        "id": 88001,
+        "lead_time": 28.039,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "0A5gjsi5L5",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 139,
+              "labels": [
+                "Tense"
+              ],
+              "start": 105,
+              "text": "distracted by recurring nightmares"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Mike Newell"
+      ],
+      "durasi": 157,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTI1NDMyMjExOF5BMl5BanBnXkFtZTcwOTc4MjQzMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "gross": 290.01,
+      "judul": "Harry Potter and the Goblet of Fire",
+      "rating": 7.7,
+      "stars": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Eric Sykes"
+      ],
+      "synopsis": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+      "tahun": 2005,
+      "votes": 561551,
+      "waktu_scrape": "09:25:44"
+    },
+    "id": 88
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937929,
+        "id": 72001,
+        "lead_time": 68.5,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "EAPr9h29KN",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 115,
+              "labels": [
+                "Happy"
+              ],
+              "start": 76,
+              "text": "discovers a life-altering family secret"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Susanne Bier"
+      ],
+      "durasi": 120,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNDllNGMwYmMtMTJiNi00Y2MyLTkxNWUtZjk2ZGQwODlhOTQzXkEyXkFqcGdeQXVyMTc5OTQwMzk@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama"
+      ],
+      "gross": 0.41,
+      "judul": "After the Wedding",
+      "rating": 7.7,
+      "stars": [
+        "Mads Mikkelsen",
+        "Sidse Babett Knudsen",
+        "Rolf Lassgård",
+        "Neeral Mulchandani"
+      ],
+      "synopsis": "A manager of an orphanage in India is sent to Copenhagen, Denmark, where he discovers a life-altering family secret.",
+      "tahun": 2006,
+      "votes": 32882,
+      "waktu_scrape": "09:25:38"
+    },
+    "id": 72
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940309,
+        "id": 56001,
+        "lead_time": 132.143,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "mtaQoca9S6",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 157,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 111,
+              "text": "Erik's vengeful pursuit of an ambitious mutant"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "_qpco2bySa",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 208,
+              "labels": [
+                "Sad"
+              ],
+              "start": 187,
+              "text": "schism to divide them"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "QCZ0EYxbXO",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 177,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 162,
+              "text": "ruined his life"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Matthew Vaughn"
+      ],
+      "durasi": 131,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTg5OTMxNzk4Nl5BMl5BanBnXkFtZTcwOTk1MjAwNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "gross": 146.41,
+      "judul": "X-Men: First Class",
+      "rating": 7.7,
+      "stars": [
+        "James McAvoy",
+        "Michael Fassbender",
+        "Jennifer Lawrence",
+        "Kevin Bacon"
+      ],
+      "synopsis": "In the 1960s, superpowered humans Charles Xavier and Erik Lensherr work together to find others like them, but Erik's vengeful pursuit of an ambitious mutant who ruined his life causes a schism to divide them.",
+      "tahun": 2011,
+      "votes": 654425,
+      "waktu_scrape": "09:25:32"
+    },
+    "id": 56
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940925,
+        "id": 15001,
+        "lead_time": 106.589,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Hl_wnSTWcJ",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 160,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 154,
+              "text": "mutiny"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Howard Hawks",
+        "Arthur Rosson"
+      ],
+      "durasi": 133,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNzNiOGJhMDUtZjNjMC00YmE5LTk3NjQtNGM4ZjAzOGJjZmRlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama"
+      ],
+      "gross": 0.0,
+      "judul": "Red River",
+      "rating": 7.8,
+      "stars": [
+        "John Wayne",
+        "Montgomery Clift",
+        "Joanne Dru",
+        "Walter Brennan"
+      ],
+      "synopsis": "Dunson leads a cattle drive, the culmination of over 14 years of work, to its destination in Missouri. But his tyrannical behavior along the way causes a mutiny, led by his adopted son.",
+      "tahun": 1948,
+      "votes": 28799,
+      "waktu_scrape": "09:25:15"
+    },
+    "id": 15
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943813,
+        "id": 22001,
+        "lead_time": 48.498,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "102LlE5_bk",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 83,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 71,
+              "text": "declares war"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Leo McCarey"
+      ],
+      "durasi": 69,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYmYxZGU2NWYtNzQxZS00NmEyLWIzN2YtMDk5MWM0ODc5ZTE4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Musical",
+        "War"
+      ],
+      "gross": 0.0,
+      "judul": "Duck Soup",
+      "rating": 7.8,
+      "stars": [
+        "Groucho Marx",
+        "Harpo Marx",
+        "Chico Marx",
+        "Zeppo Marx"
+      ],
+      "synopsis": "Rufus T. Firefly is named president/dictator of bankrupt Freedonia and declares war on neighboring Sylvania over the love of wealthy Mrs. Teasdale.",
+      "tahun": 1933,
+      "votes": 56257,
+      "waktu_scrape": "09:25:18"
+    },
+    "id": 22
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940641,
+        "id": 42001,
+        "lead_time": 35.151,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "qcGWmccwrM",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 140,
+              "labels": [
+                "Happy"
+              ],
+              "start": 56,
+              "text": "a road trip alongside old and new friends reveals how big the world can be for a toy"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Josh Cooley"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTYzMDM4NzkxOV5BMl5BanBnXkFtZTgwNzM1Mzg2NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "gross": 434.04,
+      "judul": "Toy Story 4",
+      "rating": 7.7,
+      "stars": [
+        "Tom Hanks",
+        "Tim Allen",
+        "Annie Potts",
+        "Tony Hale"
+      ],
+      "synopsis": "When a new toy called \"Forky\" joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+      "tahun": 2019,
+      "votes": 213502,
+      "waktu_scrape": "09:25:26"
+    },
+    "id": 42
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624947126,
+        "id": 38001,
+        "lead_time": 70.407,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "wUzkH620al",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 27,
+              "labels": [
+                "Sad"
+              ],
+              "start": 2,
+              "text": "washed-up superhero actor"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "8TmuBezMh-",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 64,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 40,
+              "text": "revive his fading career"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "fXKOdwpvaZ",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 125,
+              "labels": [
+                "Happy"
+              ],
+              "start": 68,
+              "text": "writing, directing, and starring in a Broadway production"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alejandro G. Iñárritu"
+      ],
+      "durasi": 119,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "gross": 42.34,
+      "judul": "Birdman or",
+      "rating": 7.7,
+      "stars": [
+        "Michael Keaton",
+        "Zach Galifianakis",
+        "Edward Norton",
+        "Andrea Riseborough"
+      ],
+      "synopsis": "A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.",
+      "tahun": 2014,
+      "votes": 591199,
+      "waktu_scrape": "09:25:25"
+    },
+    "id": 38
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946476,
+        "id": 17001,
+        "lead_time": 67.947,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "mKL6mHunzD",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 19,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 7,
+              "text": "World War II"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "oJ-gjl7F7t",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 119,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 115,
+              "text": "wife"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "ap86IHBt8v",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 149,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 140,
+              "text": "romancing"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Howard Hawks"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZGU2YmU0MWMtMzg5My00ZmY2LTljMDItMTg2YTI5Y2U2OTE3XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_UY98_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Adventure",
+        "Comedy",
+        "Film-Noir"
+      ],
+      "gross": 0.0,
+      "judul": "To Have and Have Not",
+      "rating": 7.8,
+      "stars": [
+        "Humphrey Bogart",
+        "Lauren Bacall",
+        "Walter Brennan",
+        "Dolores Moran"
+      ],
+      "synopsis": "During World War II, American expatriate Harry Morgan helps transport a French Resistance leader and his beautiful wife to Martinique while romancing a sensuous lounge singer.",
+      "tahun": 1944,
+      "votes": 31729,
+      "waktu_scrape": "09:25:16"
+    },
+    "id": 17
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944602,
+        "id": 80001,
+        "lead_time": 295.1,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "jCQqaAU6aS",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 150,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 139,
+              "text": "get married"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "smLnLmFxmK",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 182,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 171,
+              "text": "girlfriends"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "URLcYkYUrd",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 120,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 109,
+              "text": "complicated"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Ang Lee"
+      ],
+      "durasi": 134,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTY5NTAzNTc1NF5BMl5BanBnXkFtZTYwNDY4MDc3._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "gross": 83.04,
+      "judul": "Brokeback Mountain",
+      "rating": 7.7,
+      "stars": [
+        "Jake Gyllenhaal",
+        "Heath Ledger",
+        "Michelle Williams",
+        "Randy Quaid"
+      ],
+      "synopsis": "Ennis and Jack are two shepherds who develop a sexual and emotional relationship. Their relationship becomes complicated when both of them get married to their respective girlfriends.",
+      "tahun": 2005,
+      "votes": 330945,
+      "waktu_scrape": "09:25:41"
+    },
+    "id": 80
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944928,
+        "id": 84001,
+        "lead_time": 102.701,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "oWur256r9W",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 27,
+              "labels": [
+                "Angry"
+              ],
+              "start": 21,
+              "text": "framed"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "IzWyTE2KM9",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 119,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 111,
+              "text": "assassin"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Paul Greengrass"
+      ],
+      "durasi": 108,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYTIyMDFmMmItMWQzYy00MjBiLTg2M2UtM2JiNDRhOWE4NjBhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Mystery",
+        "Thriller"
+      ],
+      "gross": 176.24,
+      "judul": "The Bourne Supremacy",
+      "rating": 7.7,
+      "stars": [
+        "Matt Damon",
+        "Franka Potente",
+        "Joan Allen",
+        "Brian Cox"
+      ],
+      "synopsis": "When Jason Bourne is framed for a CIA operation gone awry, he is forced to resume his former life as a trained assassin to survive.",
+      "tahun": 2004,
+      "votes": 440663,
+      "waktu_scrape": "09:25:42"
+    },
+    "id": 84
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946611,
+        "id": 78001,
+        "lead_time": 41.567,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "TPxMFx-XPN",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 71,
+              "labels": [
+                "Lonely"
+              ],
+              "start": 39,
+              "text": "spent her entire life in a tower"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "EbwGReAAtZ",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 178,
+              "labels": [
+                "Happy"
+              ],
+              "start": 125,
+              "text": "she is about to discover the world for the first time"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Nathan Greno",
+        "Byron Howard"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "gross": 200.82,
+      "judul": "Tangled",
+      "rating": 7.7,
+      "stars": [
+        "Mandy Moore",
+        "Zachary Levi",
+        "Donna Murphy",
+        "Ron Perlman"
+      ],
+      "synopsis": "The magically long-haired Rapunzel has spent her entire life in a tower, but now that a runaway thief has stumbled upon her, she is about to discover the world for the first time, and who she really is.",
+      "tahun": 2010,
+      "votes": 414153,
+      "waktu_scrape": "09:25:40"
+    },
+    "id": 78
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944661,
+        "id": 9001,
+        "lead_time": 56.99,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ZV_xsBm299",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 19,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 13,
+              "text": " D-Day"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Ken Annakin",
+        "Andrew Marton",
+        "Gerd Oswald",
+        "Bernhard Wicki",
+        "Darryl F. Zanuck"
+      ],
+      "durasi": 178,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZTM1ZjQ2YTktNDM2MS00NGY2LTkzNzItZTU4ODg1ODNkMWYxL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Drama",
+        "History"
+      ],
+      "gross": 39.1,
+      "judul": "The Longest Day",
+      "rating": 7.8,
+      "stars": [
+        "John Wayne",
+        "Robert Ryan",
+        "Richard Burton",
+        "Henry Fonda"
+      ],
+      "synopsis": "The events of D-Day, told on a grand scale from both the Allied and German points of view.",
+      "tahun": 1962,
+      "votes": 52824,
+      "waktu_scrape": "09:25:13"
+    },
+    "id": 9
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938021,
+        "id": 97001,
+        "lead_time": 86.812,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "aelqe1Aka1",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 129,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 120,
+              "text": "desperate"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "tc9X7wkGjN",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 136,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 130,
+              "text": "battle"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "8Yds0gBc23",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 94,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 87,
+              "text": "warlord"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Ridley Scott"
+      ],
+      "durasi": 144,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYWMwMzQxZjQtODM1YS00YmFiLTk1YjQtNzNiYWY1MDE4NTdiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "History",
+        "War"
+      ],
+      "gross": 108.64,
+      "judul": "Black Hawk Down",
+      "rating": 7.7,
+      "stars": [
+        "Josh Hartnett",
+        "Ewan McGregor",
+        "Tom Sizemore",
+        "Eric Bana"
+      ],
+      "synopsis": "160 elite U.S. soldiers drop into Somalia to capture two top lieutenants of a renegade warlord and find themselves in a desperate battle with a large force of heavily-armed Somalis.",
+      "tahun": 2001,
+      "votes": 370270,
+      "waktu_scrape": "09:25:48"
+    },
+    "id": 97
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940465,
+        "id": 29001,
+        "lead_time": 67.848,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "dHesIrGRUE",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 174,
+              "labels": [
+                "Tense"
+              ],
+              "start": 86,
+              "text": "his simmering uneasiness about their reception of him eventually reaches a boiling point"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Jordan Peele"
+      ],
+      "durasi": 104,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Horror",
+        "Mystery",
+        "Thriller"
+      ],
+      "gross": 176.04,
+      "judul": "Get Out",
+      "rating": 7.7,
+      "stars": [
+        "Daniel Kaluuya",
+        "Allison Williams",
+        "Bradley Whitford",
+        "Catherine Keener"
+      ],
+      "synopsis": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+      "tahun": 2017,
+      "votes": 510900,
+      "waktu_scrape": "09:25:21"
+    },
+    "id": 29
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943763,
+        "id": 61001,
+        "lead_time": 48.835,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "VfufYo2Kap",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 26,
+              "labels": [
+                "Humorous"
+              ],
+              "start": 11,
+              "text": "romantic comedy"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "YpDdIOv-8J",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 26,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 11,
+              "text": "romantic comedy"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Marc Webb"
+      ],
+      "durasi": 95,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTk5MjM4OTU1OV5BMl5BanBnXkFtZTcwODkzNDIzMw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 32.39,
+      "judul": "500 Days of Summer",
+      "rating": 7.7,
+      "stars": [
+        "Zooey Deschanel",
+        "Joseph Gordon-Levitt",
+        "Geoffrey Arend",
+        "Chloë Grace Moretz"
+      ],
+      "synopsis": "An offbeat romantic comedy about a woman who doesn't believe true love exists, and the young man who falls for her.",
+      "tahun": 2009,
+      "votes": 480060,
+      "waktu_scrape": "09:25:33"
+    },
+    "id": 61
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937013,
+        "id": 75001,
+        "lead_time": 66.837,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "WTEDC-oTvR",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 65,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 62,
+              "text": "war"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "4kJvxJNKEQ",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 117,
+              "labels": [
+                "Tense"
+              ],
+              "start": 112,
+              "text": "crime"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Paul McGuigan"
+      ],
+      "durasi": 110,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZjczMWI1YWMtYTZjOS00ZDc5LWE2MWItMTY3ZGUxNzFkNjJmL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "gross": 22.49,
+      "judul": "Lucky Number Slevin",
+      "rating": 7.7,
+      "stars": [
+        "Josh Hartnett",
+        "Ben Kingsley",
+        "Morgan Freeman",
+        "Lucy Liu"
+      ],
+      "synopsis": "A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses. Under constant surveillance by Detective Brikowski and assassin Goodkat, he must get them before they get him.",
+      "tahun": 2006,
+      "votes": 302330,
+      "waktu_scrape": "09:25:39"
+    },
+    "id": 75
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941230,
+        "id": 57001,
+        "lead_time": 58.996,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "1AjCHlsNr9",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 94,
+              "labels": [
+                "Humorous"
+              ],
+              "start": 58,
+              "text": "with no memory of the previous night"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Todd Phillips"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy"
+      ],
+      "gross": 277.32,
+      "judul": "The Hangover",
+      "rating": 7.7,
+      "stars": [
+        "Zach Galifianakis",
+        "Bradley Cooper",
+        "Justin Bartha",
+        "Ed Helms"
+      ],
+      "synopsis": "Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.",
+      "tahun": 2009,
+      "votes": 729049,
+      "waktu_scrape": "09:25:32"
+    },
+    "id": 57
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938993,
+        "id": 6001,
+        "lead_time": 89.3,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "9JLLhyRmNp",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 42,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 29,
+              "text": "falls in love"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "XfHvGo7hLb",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 116,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 103,
+              "text": "violent crime"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Arthur Penn"
+      ],
+      "durasi": 111,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTViZmMwOGEtYzc4Yy00ZGQ1LWFkZDQtMDljNGZlMjAxMjhiXkEyXkFqcGdeQXVyNzM0MTUwNTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Biography",
+        "Crime"
+      ],
+      "gross": 0.0,
+      "judul": "Bonnie and Clyde",
+      "rating": 7.8,
+      "stars": [
+        "Warren Beatty",
+        "Faye Dunaway",
+        "Michael J. Pollard",
+        "Gene Hackman"
+      ],
+      "synopsis": "Bored waitress Bonnie Parker falls in love with an ex-con named Clyde Barrow and together they start a violent crime spree through the country, stealing cars and robbing banks.",
+      "tahun": 1967,
+      "votes": 104491,
+      "waktu_scrape": "09:25:12"
+    },
+    "id": 6
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943652,
+        "id": 71001,
+        "lead_time": 147.878,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "rjRqty16fR",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 137,
+              "labels": [
+                "Tense"
+              ],
+              "start": 51,
+              "text": "ground-breaking experiment in synthetic intelligence by evaluating the human qualities"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alex Garland"
+      ],
+      "durasi": 108,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "gross": 25.44,
+      "judul": "Ex Machina",
+      "rating": 7.7,
+      "stars": [
+        "Alicia Vikander",
+        "Domhnall Gleeson",
+        "Oscar Isaac",
+        "Sonoya Mizuno"
+      ],
+      "synopsis": "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.",
+      "tahun": 2014,
+      "votes": 487402,
+      "waktu_scrape": "09:25:37"
+    },
+    "id": 71
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940540,
+        "id": 79001,
+        "lead_time": 32.509,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "p6_6QUL4U0",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 52,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 40,
+              "text": "World War II"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Paul Verhoeven"
+      ],
+      "durasi": 145,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BODFlNTI0ZWQtOTcxNC00OTc0LTkwZDUtMmNkM2I1ZWFlYzZkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UY98_CR2,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Thriller",
+        "War"
+      ],
+      "gross": 4.4,
+      "judul": "Black Book",
+      "rating": 7.7,
+      "stars": [
+        "Carice van Houten",
+        "Sebastian Koch",
+        "Thom Hoffman",
+        "Halina Reijn"
+      ],
+      "synopsis": "In the Nazi-occupied Netherlands during World War II, a Jewish singer infiltrates the regional Gestapo headquarters for the Dutch resistance.",
+      "tahun": 2006,
+      "votes": 73608,
+      "waktu_scrape": "09:25:40"
+    },
+    "id": 79
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940605,
+        "id": 64001,
+        "lead_time": 63.448,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "agoLSqWGLm",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 90,
+              "labels": [
+                "Happy"
+              ],
+              "start": 44,
+              "text": "elevision interviews between British talk-show"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Ron Howard"
+      ],
+      "durasi": 122,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTY4NTU2NTU4NF5BMl5BanBnXkFtZTcwNjE0OTc5MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "gross": 18.59,
+      "judul": "Frost/Nixon",
+      "rating": 7.7,
+      "stars": [
+        "Frank Langella",
+        "Michael Sheen",
+        "Kevin Bacon",
+        "Sam Rockwell"
+      ],
+      "synopsis": "A dramatic retelling of the post-Watergate television interviews between British talk-show host David Frost and former president Richard Nixon.",
+      "tahun": 2008,
+      "votes": 104399,
+      "waktu_scrape": "09:25:35"
+    },
+    "id": 64
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938659,
+        "id": 11001,
+        "lead_time": 62.156,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "4X9mf4CuvW",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 91,
+              "labels": [
+                "Tense"
+              ],
+              "start": 84,
+              "text": "haunted"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Jack Clayton"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYTYxZTQwOGQtNTJjNC00ZmVhLWJjNTQtYzY0M2VjYzI5MmU1L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Horror"
+      ],
+      "gross": 2.62,
+      "judul": "The Innocents",
+      "rating": 7.8,
+      "stars": [
+        "Deborah Kerr",
+        "Peter Wyngarde",
+        "Megs Jenkins",
+        "Michael Redgrave"
+      ],
+      "synopsis": "A young governess for two children becomes convinced that the house and grounds are haunted.",
+      "tahun": 1961,
+      "votes": 27729,
+      "waktu_scrape": "09:25:14"
+    },
+    "id": 11
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942849,
+        "id": 47001,
+        "lead_time": 65.865,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "IX8YQpnZax",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 194,
+              "labels": [
+                "Happy"
+              ],
+              "start": 148,
+              "text": "extraordinary world where anything is possible"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Mark Osborne"
+      ],
+      "durasi": 108,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNjg0OTM5OTQyNV5BMl5BanBnXkFtZTgwNDg5NDQ0NTE@._V1_UY98_CR2,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Drama"
+      ],
+      "gross": 1.34,
+      "judul": "The Little Prince",
+      "rating": 7.7,
+      "stars": [
+        "Jeff Bridges",
+        "Mackenzie Foy",
+        "Rachel McAdams",
+        "Marion Cotillard"
+      ],
+      "synopsis": "A little girl lives in a very grown-up world with her mother, who tries to prepare her for it. Her neighbor, the Aviator, introduces the girl to an extraordinary world where anything is possible, the world of the Little Prince.",
+      "tahun": 2015,
+      "votes": 58018,
+      "waktu_scrape": "09:25:29"
+    },
+    "id": 47
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946873,
+        "id": 1,
+        "lead_time": 67.973,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "snnZ8KRA7h",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 83,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 74,
+              "text": "boyfriend"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "BFY8v0L2QW",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 109,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 96,
+              "text": "killing spree"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Terrence Malick"
+      ],
+      "durasi": 94,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMDcxNjhiOTEtMzQ0YS00OTBhLTkxM2QtN2UyZDMzNzIzNWFlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY98_CR1,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Crime",
+        "Drama"
+      ],
+      "gross": 0.0,
+      "judul": "Badlands",
+      "rating": 7.8,
+      "stars": [
+        "Martin Sheen",
+        "Sissy Spacek",
+        "Warren Oates",
+        "Ramon Bieri"
+      ],
+      "synopsis": "An impressionable teenage girl from a dead-end town and her older greaser boyfriend embark on a killing spree in the South Dakota badlands.",
+      "tahun": 1973,
+      "votes": 67789,
+      "waktu_scrape": "09:25:10"
+    },
+    "id": 0
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937634,
+        "id": 1001,
+        "lead_time": 70.247,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ME2oDnmtIj",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 115,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 90,
+              "text": "Nazi Party rises to power"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "F532Ivmd6P",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 71,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 63,
+              "text": "romances"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Bob Fosse"
+      ],
+      "durasi": 124,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNTEyMzc0Mjk5MV5BMl5BanBnXkFtZTgwMjI2NDIwMTE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Music",
+        "Musical"
+      ],
+      "gross": 42.77,
+      "judul": "Cabaret",
+      "rating": 7.8,
+      "stars": [
+        "Liza Minnelli",
+        "Michael York",
+        "Helmut Griem",
+        "Joel Grey"
+      ],
+      "synopsis": "A female girlie club entertainer in Weimar Republic era Berlin romances two men while the Nazi Party rises to power around them.",
+      "tahun": 1972,
+      "votes": 49244,
+      "waktu_scrape": "09:25:10"
+    },
+    "id": 1
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941563,
+        "id": 36001,
+        "lead_time": 86.424,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "nYaQUNeIEN",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 40,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 0,
+              "text": "Two teenage cancer patients begin a life"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "vs7TPyJz1J",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 27,
+              "labels": [
+                "Sad"
+              ],
+              "start": 0,
+              "text": "Two teenage cancer patients"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Josh Boone"
+      ],
+      "durasi": 126,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNTVkMTFiZWItOTFkOC00YTc3LWFhYzQtZTg3NzAxZjJlNTAyXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "gross": 124.87,
+      "judul": "The Fault in Our Stars",
+      "rating": 7.7,
+      "stars": [
+        "Shailene Woodley",
+        "Ansel Elgort",
+        "Nat Wolff",
+        "Laura Dern"
+      ],
+      "synopsis": "Two teenage cancer patients begin a life-affirming journey to visit a reclusive author in Amsterdam.",
+      "tahun": 2014,
+      "votes": 350304,
+      "waktu_scrape": "09:25:24"
+    },
+    "id": 36
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937453,
+        "id": 95001,
+        "lead_time": 318.995,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "PH2rHjEwVw",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 122,
+              "labels": [
+                "Sad"
+              ],
+              "start": 93,
+              "text": "grieving the death of a child"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Jim Sheridan"
+      ],
+      "durasi": 105,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOGY1YmUzN2MtNDQ3NC00Nzc4LWI5M2EtYzUwMGQ4NWM4NjE1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UY98_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama"
+      ],
+      "gross": 15.54,
+      "judul": "In America",
+      "rating": 7.7,
+      "stars": [
+        "Paddy Considine",
+        "Samantha Morton",
+        "Djimon Hounsou",
+        "Sarah Bolger"
+      ],
+      "synopsis": "A family of Irish immigrants adjust to life on the mean streets of Hell's Kitchen while also grieving the death of a child.",
+      "tahun": 2002,
+      "votes": 40697,
+      "waktu_scrape": "09:25:47"
+    },
+    "id": 95
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942599,
+        "id": 67001,
+        "lead_time": 33.601,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "sVtilyXA4-",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 56,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 19,
+              "text": "start to have feelings for each other"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Rob Reiner"
+      ],
+      "durasi": 90,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTU2NjQ1Nzc4MF5BMl5BanBnXkFtZTcwNTM0NDk1Mw@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 1.75,
+      "judul": "Flipped",
+      "rating": 7.7,
+      "stars": [
+        "Madeline Carroll",
+        "Callan McAuliffe",
+        "Rebecca De Mornay",
+        "Anthony Edwards"
+      ],
+      "synopsis": "Two eighth-graders start to have feelings for each other despite being total opposites.",
+      "tahun": 2010,
+      "votes": 83408,
+      "waktu_scrape": "09:25:36"
+    },
+    "id": 67
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939720,
+        "id": 69001,
+        "lead_time": 76.953,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "EuycoteK22",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 128,
+              "labels": [
+                "Tense"
+              ],
+              "start": 94,
+              "text": " a notebook with the power to kill"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "tddJgJemvU",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 171,
+              "labels": [
+                "Happy"
+              ],
+              "start": 134,
+              "text": "decides to rid the world of criminals"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Shûsuke Kaneko"
+      ],
+      "durasi": 126,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZDNlNjEzMzQtZDM0MS00YzhiLTk0MGUtYTdmNDZiZGVjNTk0L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR1,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Fantasy"
+      ],
+      "gross": 0.0,
+      "judul": "Death Note",
+      "rating": 7.7,
+      "stars": [
+        "Tatsuya Fujiwara",
+        "Ken'ichi Matsuyama",
+        "Asaka Seto",
+        "Yû Kashii"
+      ],
+      "synopsis": "A battle between the world's two greatest minds begins when Light Yagami finds the Death Note, a notebook with the power to kill, and decides to rid the world of criminals.",
+      "tahun": 2006,
+      "votes": 29031,
+      "waktu_scrape": "09:25:36"
+    },
+    "id": 69
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939641,
+        "id": 7001,
+        "lead_time": 298.599,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "VxQ5cjRJpN",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 133,
+              "labels": [
+                "Happy"
+              ],
+              "start": 43,
+              "text": "agrees to a wager that he can make flower girl Eliza Doolittle presentable in high society"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "acO-61wdeH",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 133,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 66,
+              "text": "he can make flower girl Eliza Doolittle presentable in high society"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "George Cukor"
+      ],
+      "durasi": 170,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNGM0ZTU3NmItZmRmMy00YWNjLWEzMWItYzg3MzcwZmM5NjdiXkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY98_CR2,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Family",
+        "Musical"
+      ],
+      "gross": 72.0,
+      "judul": "My Fair Lady",
+      "rating": 7.8,
+      "stars": [
+        "Audrey Hepburn",
+        "Rex Harrison",
+        "Stanley Holloway",
+        "Wilfrid Hyde-White"
+      ],
+      "synopsis": "Snobbish phonetics Professor Henry Higgins agrees to a wager that he can make flower girl Eliza Doolittle presentable in high society.",
+      "tahun": 1964,
+      "votes": 88564,
+      "waktu_scrape": "09:25:12"
+    },
+    "id": 7
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946772,
+        "id": 63001,
+        "lead_time": 112.09,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "HL_CDN3chb",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 131,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 116,
+              "text": "falling in love"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "3fwfMNutG_",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 109,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 86,
+              "text": "longs to become a human"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "JFQul3hZWg",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 54,
+              "labels": [
+                "Happy"
+              ],
+              "start": 0,
+              "text": "A five-year-old boy develops a relationship with Ponyo"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Hayao Miyazaki"
+      ],
+      "durasi": 101,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BOTc3YmM3N2QtODZkMC00ZDE5LThjMTQtYTljN2Y1YTYwYWJkXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "gross": 15.09,
+      "judul": "Ponyo",
+      "rating": 7.7,
+      "stars": [
+        "Cate Blanchett",
+        "Matt Damon",
+        "Liam Neeson",
+        "Tomoko Yamaguchi"
+      ],
+      "synopsis": "A five-year-old boy develops a relationship with Ponyo, a young goldfish princess who longs to become a human after falling in love with him.",
+      "tahun": 2008,
+      "votes": 129321,
+      "waktu_scrape": "09:25:34"
+    },
+    "id": 63
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943023,
+        "id": 12001,
+        "lead_time": 171.681,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "hnJ3U1Xq5-",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 208,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 174,
+              "text": "persuade her to run away with him "
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "sSZtHLE4Gb",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 55,
+              "labels": [
+                "Tense"
+              ],
+              "start": 48,
+              "text": "murders"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "JNhxlkrwP6",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 31,
+              "labels": [
+                "Angry"
+              ],
+              "start": 19,
+              "text": "steals a car"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "Ix4SKW2owK",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 78,
+              "labels": [
+                "Angry"
+              ],
+              "start": 36,
+              "text": "impulsively murders a motorcycle policeman"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Jean-Luc Godard"
+      ],
+      "durasi": 90,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNzk5MDk2MjktY2I3NS00ODZkLTk3OTktY2Q3ZDE2MmQ2M2ZmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UY98_CR2,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "gross": 0.34,
+      "judul": "Breathless",
+      "rating": 7.8,
+      "stars": [
+        "Jean-Paul Belmondo",
+        "Jean Seberg",
+        "Daniel Boulanger",
+        "Henri-Jacques Huet"
+      ],
+      "synopsis": "A small-time thief steals a car and impulsively murders a motorcycle policeman. Wanted by the authorities, he reunites with a hip American journalism student and attempts to persuade her to run away with him to Italy.",
+      "tahun": 1960,
+      "votes": 74979,
+      "waktu_scrape": "09:25:14"
+    },
+    "id": 12
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939325,
+        "id": 24001,
+        "lead_time": 66.292,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "4vBPjGb5pM",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 80,
+              "labels": [
+                "Tense"
+              ],
+              "start": 56,
+              "text": "creating a human monster"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "James Whale"
+      ],
+      "durasi": 70,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTQ0Njc1MjM0OF5BMl5BanBnXkFtZTgwNTY2NTUyMjE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "gross": 0.0,
+      "judul": "Frankenstein",
+      "rating": 7.8,
+      "stars": [
+        "Colin Clive",
+        "Mae Clarke",
+        "Boris Karloff",
+        "John Boles"
+      ],
+      "synopsis": "Dr. Frankenstein dares to tamper with life and death by creating a human monster out of lifeless body parts.",
+      "tahun": 1931,
+      "votes": 66547,
+      "waktu_scrape": "09:25:19"
+    },
+    "id": 24
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940105,
+        "id": 20001,
+        "lead_time": 126.8,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "DcoM9CFbA6",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 38,
+              "labels": [
+                "Happy"
+              ],
+              "start": 6,
+              "text": "travelling in continental Europe"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "Lt4q-rBlrN",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 61,
+              "labels": [
+                "Humorous"
+              ],
+              "start": 53,
+              "text": "playgirl"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "FDLf5F39Z7",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 117,
+              "labels": [
+                "Tense"
+              ],
+              "start": 106,
+              "text": "disappeared"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alfred Hitchcock"
+      ],
+      "durasi": 96,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNjk3YzFjYTktOGY0ZS00Y2EwLTk2NTctYTI1Nzc2OWNiN2I4XkEyXkFqcGdeQXVyNzM0MTUwNTY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Mystery",
+        "Thriller"
+      ],
+      "gross": 0.0,
+      "judul": "The Lady Vanishes",
+      "rating": 7.8,
+      "stars": [
+        "Margaret Lockwood",
+        "Michael Redgrave",
+        "Paul Lukas",
+        "May Whitty"
+      ],
+      "synopsis": "While travelling in continental Europe, a rich young playgirl realizes that an elderly lady seems to have disappeared from the train.",
+      "tahun": 1938,
+      "votes": 48549,
+      "waktu_scrape": "09:25:17"
+    },
+    "id": 20
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941169,
+        "id": 86001,
+        "lead_time": 122.501,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "mJVK1DfUgS",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 195,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 130,
+              "text": "where he went blind at age seven, to his meteoric rise to stardom"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "ykekV1lMP5",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 128,
+              "labels": [
+                "Happy"
+              ],
+              "start": 94,
+              "text": "his humble beginnings in the South"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Taylor Hackford"
+      ],
+      "durasi": 152,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTQxNDQwNjQzOV5BMl5BanBnXkFtZTcwNTQxNDYyMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Music"
+      ],
+      "gross": 75.33,
+      "judul": "Ray",
+      "rating": 7.7,
+      "stars": [
+        "Jamie Foxx",
+        "Regina King",
+        "Kerry Washington",
+        "Clifton Powell"
+      ],
+      "synopsis": "The story of the life and career of the legendary rhythm and blues musician Ray Charles, from his humble beginnings in the South, where he went blind at age seven, to his meteoric rise to stardom during the 1950s and 1960s.",
+      "tahun": 2004,
+      "votes": 140583,
+      "waktu_scrape": "09:25:43"
+    },
+    "id": 86
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939168,
+        "id": 60001,
+        "lead_time": 97.443,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "t9qWjJlFK2",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 195,
+              "labels": [
+                "Angry"
+              ],
+              "start": 188,
+              "text": "hostage"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "mmIy4-sEKb",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 147,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 141,
+              "text": "rescue"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "NKeqJ3lQTO",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 161,
+              "labels": [
+                "Tense"
+              ],
+              "start": 118,
+              "text": "dangerous operation to rescue six Americans"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Ben Affleck"
+      ],
+      "durasi": 120,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNzljNjY3MDYtYzc0Ni00YjU0LWIyNDUtNTE0ZDRiMGExMjZlXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Thriller"
+      ],
+      "gross": 136.03,
+      "judul": "Argo",
+      "rating": 7.7,
+      "stars": [
+        "Ben Affleck",
+        "Bryan Cranston",
+        "John Goodman",
+        "Alan Arkin"
+      ],
+      "synopsis": "Acting under the cover of a Hollywood producer scouting a location for a science fiction film, a CIA agent launches a dangerous operation to rescue six Americans in Tehran during the U.S. hostage crisis in Iran in 1979.",
+      "tahun": 2012,
+      "votes": 582387,
+      "waktu_scrape": "09:25:33"
+    },
+    "id": 60
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624944735,
+        "id": 2001,
+        "lead_time": 72.959,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "vNXX3U3b5r",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 22,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 0,
+              "text": "A poor but hopeful boy"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "rULCliGzjn",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 142,
+              "labels": [
+                "Happy"
+              ],
+              "start": 78,
+              "text": "send him on a tour of Willy Wonka's mysterious chocolate factory"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Mel Stuart"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZTllNDU0ZTItYTYxMC00OTI4LThlNDAtZjNiNzdhMWZiYjNmXkEyXkFqcGdeQXVyNzY1NDgwNjQ@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Family",
+        "Fantasy",
+        "Musical"
+      ],
+      "gross": 4.0,
+      "judul": "Willy Wonka & the Chocolate Factory",
+      "rating": 7.8,
+      "stars": [
+        "Gene Wilder",
+        "Jack Albertson",
+        "Peter Ostrum",
+        "Roy Kinnear"
+      ],
+      "synopsis": "A poor but hopeful boy seeks one of the five coveted golden tickets that will send him on a tour of Willy Wonka's mysterious chocolate factory.",
+      "tahun": 1971,
+      "votes": 182226,
+      "waktu_scrape": "09:25:10"
+    },
+    "id": 2
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624939901,
+        "id": 94001,
+        "lead_time": 3165.264,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "Ww1sGFa5u8",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 19,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 12,
+              "text": "protect"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "sJcP5FqhbZ",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 187,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 176,
+              "text": "disappeared"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "i05heGQ1y0",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 75,
+              "labels": [
+                "Sad"
+              ],
+              "start": 66,
+              "text": "long coma"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "jWul8vAP5z",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 133,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 126,
+              "text": "beloved"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Wolfgang Becker"
+      ],
+      "durasi": 121,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTI0MTg4NzI3M15BMl5BanBnXkFtZTcwOTE0MTUyMQ@@._V1_UY98_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 4.06,
+      "judul": "Good Bye Lenin!",
+      "rating": 7.7,
+      "stars": [
+        "Daniel Brühl",
+        "Katrin Saß",
+        "Chulpan Khamatova",
+        "Florian Lukas"
+      ],
+      "synopsis": "In 1990, to protect his fragile mother from a fatal shock after a long coma, a young man must keep her from learning that her beloved nation of East Germany as she knew it has disappeared.",
+      "tahun": 2003,
+      "votes": 139888,
+      "waktu_scrape": "09:25:47"
+    },
+    "id": 94
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942365,
+        "id": 13001,
+        "lead_time": 76.019,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "I3VeqKE9t_",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 110,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 82,
+              "text": "falls for a spirited redhead"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "John Ford"
+      ],
+      "durasi": 129,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMWM1ZDhlM2MtNDNmMi00MDk4LTg5MjgtODE4ODk1MjYxOTIwXkEyXkFqcGdeQXVyNjc0MzMzNjA@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 10.55,
+      "judul": "The Quiet Man",
+      "rating": 7.8,
+      "stars": [
+        "John Wayne",
+        "Maureen O'Hara",
+        "Barry Fitzgerald",
+        "Ward Bond"
+      ],
+      "synopsis": "A retired American boxer returns to the village of his birth in Ireland, where he falls for a spirited redhead whose brother is contemptuous of their union.",
+      "tahun": 1952,
+      "votes": 35722,
+      "waktu_scrape": "09:25:15"
+    },
+    "id": 13
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624941464,
+        "id": 14001,
+        "lead_time": 22.345,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "HNpsVESGzE",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 6,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 3,
+              "text": "WWI"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "John Huston"
+      ],
+      "durasi": 105,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYzM3YjE2NGMtODY3Zi00NTY0LWE4Y2EtMTE5YzNmM2U1NTg2XkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Romance"
+      ],
+      "gross": 0.54,
+      "judul": "The African Queen",
+      "rating": 7.8,
+      "stars": [
+        "Humphrey Bogart",
+        "Katharine Hepburn",
+        "Robert Morley",
+        "Peter Bull"
+      ],
+      "synopsis": "In WWI Africa, a gin-swilling riverboat captain is persuaded by a strait-laced missionary to use his boat to attack an enemy warship.",
+      "tahun": 1951,
+      "votes": 72722,
+      "waktu_scrape": "09:25:15"
+    },
+    "id": 14
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937133,
+        "id": 74001,
+        "lead_time": 118.321,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "cIWMVJrl0p",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 132,
+              "labels": [
+                "Tense"
+              ],
+              "start": 125,
+              "text": " Killer"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "Xw0ZUvNzrw",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 216,
+              "labels": [
+                "Tense"
+              ],
+              "start": 203,
+              "text": "killing spree"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "2GNjIqzqno",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 175,
+              "labels": [
+                "Angry"
+              ],
+              "start": 165,
+              "text": "terrorizes"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "David Fincher"
+      ],
+      "durasi": 157,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BN2UwNDc5NmEtNjVjZS00OTI5LWE5YjctMWM3ZjBiZGYwMGI2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery"
+      ],
+      "gross": 33.08,
+      "judul": "Zodiac",
+      "rating": 7.7,
+      "stars": [
+        "Jake Gyllenhaal",
+        "Robert Downey Jr.",
+        "Mark Ruffalo",
+        "Anthony Edwards"
+      ],
+      "synopsis": "In the late 1960s/early 1970s, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.",
+      "tahun": 2007,
+      "votes": 481853,
+      "waktu_scrape": "09:25:38"
+    },
+    "id": 74
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943313,
+        "id": 51001,
+        "lead_time": 78.991,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "ETIDfmRRte",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 132,
+              "labels": [
+                "Happy"
+              ],
+              "start": 84,
+              "text": "recruited to join a quest to stop an evil tyrant"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Christopher Miller",
+        "Phil Lord"
+      ],
+      "durasi": 100,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTg4MDk1ODExN15BMl5BanBnXkFtZTgwNzIyNjg3MDE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Action",
+        "Adventure"
+      ],
+      "gross": 257.76,
+      "judul": "The Lego Movie",
+      "rating": 7.7,
+      "stars": [
+        "Chris Pratt",
+        "Will Ferrell",
+        "Elizabeth Banks",
+        "Will Arnett"
+      ],
+      "synopsis": "An ordinary LEGO construction worker, thought to be the prophesied as \"special\", is recruited to join a quest to stop an evil tyrant from gluing the LEGO universe into eternal stasis.",
+      "tahun": 2014,
+      "votes": 328767,
+      "waktu_scrape": "09:25:30"
+    },
+    "id": 51
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940817,
+        "id": 5001,
+        "lead_time": 74.658,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "KaAKTxYUpq",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 102,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 96,
+              "text": "fiancé"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "ZKfnCKZEHN",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 102,
+              "labels": [
+                "Happy"
+              ],
+              "start": 41,
+              "text": "their daughter introduces them to her African-American fiancé"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Stanley Kramer"
+      ],
+      "durasi": 108,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BZTVmMTk2NjUtNjVjNC00OTcwLWE4OWEtNzA4Mjk1ZmIwNDExXkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "gross": 56.7,
+      "judul": "Guess Who's Coming to Dinner",
+      "rating": 7.8,
+      "stars": [
+        "Spencer Tracy",
+        "Sidney Poitier",
+        "Katharine Hepburn",
+        "Katharine Houghton"
+      ],
+      "synopsis": "A couple's attitudes are challenged when their daughter introduces them to her African-American fiancé.",
+      "tahun": 1967,
+      "votes": 40718,
+      "waktu_scrape": "09:25:12"
+    },
+    "id": 5
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624937858,
+        "id": 46001,
+        "lead_time": 81.754,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "kZN4aigtu2",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 39,
+              "labels": [
+                "Happy"
+              ],
+              "start": 0,
+              "text": "A video game villain wants to be a hero"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "THOiPiA0d0",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 73,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 44,
+              "text": "sets out to fulfill his dream"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Rich Moore"
+      ],
+      "durasi": 101,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNzMxNTExOTkyMF5BMl5BanBnXkFtZTcwMzEyNDc0OA@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "gross": 189.42,
+      "judul": "Wreck-It Ralph",
+      "rating": 7.7,
+      "stars": [
+        "John C. Reilly",
+        "Jack McBrayer",
+        "Jane Lynch",
+        "Sarah Silverman"
+      ],
+      "synopsis": "A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.",
+      "tahun": 2012,
+      "votes": 387622,
+      "waktu_scrape": "09:25:28"
+    },
+    "id": 46
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624943880,
+        "id": 35001,
+        "lead_time": 65.666,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "WOATsPf89e",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 18,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 2,
+              "text": "spy organisation"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "AscyuKKlC4",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 85,
+              "labels": [
+                "Happy"
+              ],
+              "start": 18,
+              "text": " recruits a promising street kid into the agency's training program"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Matthew Vaughn"
+      ],
+      "durasi": 129,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYTM3ZTllNzItNTNmOS00NzJiLTg1MWMtMjMxNDc0NmJhODU5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy"
+      ],
+      "gross": 128.26,
+      "judul": "Kingsman: The Secret Service",
+      "rating": 7.7,
+      "stars": [
+        "Colin Firth",
+        "Taron Egerton",
+        "Samuel L. Jackson",
+        "Michael Caine"
+      ],
+      "synopsis": "A spy organisation recruits a promising street kid into the agency's training program, while a global threat emerges from a twisted tech genius.",
+      "tahun": 2014,
+      "votes": 602783,
+      "waktu_scrape": "09:25:24"
+    },
+    "id": 35
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624938897,
+        "id": 50001,
+        "lead_time": 105.935,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "LHF6ig9iPa",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 38,
+              "labels": [
+                "Sad"
+              ],
+              "start": 30,
+              "text": "grieving"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "qK-t3eR_Oc",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 24,
+              "labels": [
+                "Tense"
+              ],
+              "start": 16,
+              "text": "thriller"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "0zH_k69Fd8",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 163,
+              "labels": [
+                "Angry"
+              ],
+              "start": 100,
+              "text": "to pay back those who were responsible for her daughter's death"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Tetsuya Nakashima"
+      ],
+      "durasi": 106,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BYzM2OGQ2NzUtNzlmYi00ZDg4LWExODgtMDVmOTU2Yzg2N2U5XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY98_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Thriller"
+      ],
+      "gross": 0.0,
+      "judul": "Confessions",
+      "rating": 7.7,
+      "stars": [
+        "Takako Matsu",
+        "Yoshino Kimura",
+        "Masaki Okada",
+        "Yukito Nishii"
+      ],
+      "synopsis": "A psychological thriller of a grieving mother turned cold-blooded avenger with a twisty master plan to pay back those who were responsible for her daughter's death.",
+      "tahun": 2010,
+      "votes": 36421,
+      "waktu_scrape": "09:25:30"
+    },
+    "id": 50
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624940741,
+        "id": 87001,
+        "lead_time": 96.77,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "MTQhXRfLzT",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 89,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 0,
+              "text": "A faded movie star and a neglected young woman form an unlikely bond after crossing paths"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Sofia Coppola"
+      ],
+      "durasi": 102,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTUxMzk0NDg1MV5BMl5BanBnXkFtZTgwNDg0NjkxMDI@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Comedy",
+        "Drama"
+      ],
+      "gross": 44.59,
+      "judul": "Lost in Translation",
+      "rating": 7.7,
+      "stars": [
+        "Bill Murray",
+        "Scarlett Johansson",
+        "Giovanni Ribisi",
+        "Anna Faris"
+      ],
+      "synopsis": "A faded movie star and a neglected young woman form an unlikely bond after crossing paths in Tokyo.",
+      "tahun": 2003,
+      "votes": 423992,
+      "waktu_scrape": "09:25:44"
+    },
+    "id": 87
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624947053,
+        "id": 70001,
+        "lead_time": 55.753,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "J_xYr5mmjE",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 52,
+              "labels": [
+                "Fighting"
+              ],
+              "start": 35,
+              "text": "gang of skinheads"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "JDhJifercV",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 137,
+              "labels": [
+                "Happy"
+              ],
+              "start": 54,
+              "text": "Friends soon become like family, and relationships will be pushed to the very limit"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Shane Meadows"
+      ],
+      "durasi": 101,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMmE3OWZhZDYtOTBjMi00NDIwLTg1NWMtMjg0NjJmZWM4MjliL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Crime",
+        "Drama"
+      ],
+      "gross": 0.33,
+      "judul": "This Is England",
+      "rating": 7.7,
+      "stars": [
+        "Thomas Turgoose",
+        "Stephen Graham",
+        "Jo Hartley",
+        "Andrew Shim"
+      ],
+      "synopsis": "A young boy becomes friends with a gang of skinheads. Friends soon become like family, and relationships will be pushed to the very limit.",
+      "tahun": 2006,
+      "votes": 116943,
+      "waktu_scrape": "09:25:37"
+    },
+    "id": 70
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946215,
+        "id": 92001,
+        "lead_time": 608.729,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "9k7u0OhqPq",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 58,
+              "labels": [
+                "Hopeful"
+              ],
+              "start": 24,
+              "text": "struggle to maintain their spirits"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "un0bixyuFn",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 95,
+              "labels": [
+                "Angry"
+              ],
+              "start": 77,
+              "text": "dehumanizing abuse"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Peter Mullan"
+      ],
+      "durasi": 114,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTI2NzU1NTc1NF5BMl5BanBnXkFtZTcwOTQ1MjAwMQ@@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama"
+      ],
+      "gross": 4.89,
+      "judul": "The Magdalene Sisters",
+      "rating": 7.7,
+      "stars": [
+        "Eileen Walsh",
+        "Dorothy Duffy",
+        "Nora-Jane Noone",
+        "Anne-Marie Duff"
+      ],
+      "synopsis": "Three young Irish women struggle to maintain their spirits while they endure dehumanizing abuse as inmates of a Magdalene Sisters Asylum.",
+      "tahun": 2002,
+      "votes": 26246,
+      "waktu_scrape": "09:25:46"
+    },
+    "id": 92
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624946995,
+        "id": 93001,
+        "lead_time": 84.031,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "aTq2WiHDhk",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 92,
+              "labels": [
+                "Happy"
+              ],
+              "start": 0,
+              "text": "The story of Sir J.M. Barrie's friendship with a family who inspired him to create Peter Pan"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Marc Forster"
+      ],
+      "durasi": 106,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTMxNzYzNzUzMV5BMl5BanBnXkFtZTYwNjcwMjE3._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Family"
+      ],
+      "gross": 51.68,
+      "judul": "Finding Neverland",
+      "rating": 7.7,
+      "stars": [
+        "Johnny Depp",
+        "Kate Winslet",
+        "Julie Christie",
+        "Radha Mitchell"
+      ],
+      "synopsis": "The story of Sir J.M. Barrie's friendship with a family who inspired him to create Peter Pan.",
+      "tahun": 2004,
+      "votes": 200506,
+      "waktu_scrape": "09:25:46"
+    },
+    "id": 93
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624942525,
+        "id": 26001,
+        "lead_time": 5791.352,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "f51Q6xIcx3",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 207,
+              "labels": [
+                "Romantic"
+              ],
+              "start": 187,
+              "text": "intense relationship"
+            }
+          },
+          {
+            "from_name": "label",
+            "id": "qLpEq-Wj1Q",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 73,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 61,
+              "text": "frustrations"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Francis Lee"
+      ],
+      "durasi": 104,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BNjRhYzk2NDAtYzA1Mi00MmNmLWE1ZjQtMDBhZmUyMTdjZjBiXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama",
+        "Romance"
+      ],
+      "gross": 0.34,
+      "judul": "God's Own Country",
+      "rating": 7.7,
+      "stars": [
+        "Josh O'Connor",
+        "Alec Secareanu",
+        "Gemma Jones",
+        "Ian Hart"
+      ],
+      "synopsis": "Spring. Yorkshire. Young farmer Johnny Saxby numbs his daily frustrations with binge drinking and casual sex, until the arrival of a Romanian migrant worker for lambing season ignites an intense relationship that sets Johnny on a new path.",
+      "tahun": 2017,
+      "votes": 26607,
+      "waktu_scrape": "09:25:20"
+    },
+    "id": 26
+  },
+  {
+    "completions": [
+      {
+        "created_at": 1624945015,
+        "id": 25001,
+        "lead_time": 85.731,
+        "result": [
+          {
+            "from_name": "label",
+            "id": "HJQjpAfstp",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "end": 50,
+              "labels": [
+                "Stressed"
+              ],
+              "start": 0,
+              "text": "A year in the life of a middle-class family's maid"
+            }
+          }
+        ]
+      }
+    ],
+    "data": {
+      "director": [
+        "Alfonso Cuarón"
+      ],
+      "durasi": 135,
+      "gambar": "https://m.media-amazon.com/images/M/MV5BMTU0OTc3ODk4Ml5BMl5BanBnXkFtZTgwMzM4NzI5NjM@._V1_UX67_CR0,0,67,98_AL_.jpg",
+      "genre": [
+        "Drama"
+      ],
+      "gross": 0.0,
+      "judul": "Roma",
+      "rating": 7.7,
+      "stars": [
+        "Yalitza Aparicio",
+        "Marina de Tavira",
+        "Diego Cortina Autrey",
+        "Carlos Peralta"
+      ],
+      "synopsis": "A year in the life of a middle-class family's maid in Mexico City in the early 1970s.",
+      "tahun": 2018,
+      "votes": 144847,
+      "waktu_scrape": "09:25:19"
+    },
+    "id": 25
+  }
+]

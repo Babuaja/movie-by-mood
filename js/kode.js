@@ -1,49 +1,18 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+//inisial awal section for hide
+const sec_choose_mood = document.querySelector(`#choose-mood`);
+const sec_popular = document.querySelector(`#popular`);
+const sec_file = document.querySelector(`#file`);
+const sec_user = document.querySelector(`#user`);
+const sec_stats = document.querySelector(`#stats`);
+sec_file.style.display = "none";
+sec_user.style.display = "none";
+sec_stats.style.display = "none";
 
-    const showNavbar = (toggleId, navId, bodyId, headerId) =>{
-    const toggle = document.getElementById(toggleId),
-    nav = document.getElementById(navId),
-    bodypd = document.getElementById(bodyId),
-    headerpd = document.getElementById(headerId)
-    
-    // Validate that all variables exist
-    if(toggle && nav && bodypd && headerpd){
-    toggle.addEventListener('click', ()=>{
-    // show navbar
-    nav.classList.toggle('show')
-    // change icon
-    toggle.classList.toggle('bx-x')
-    // add padding to body
-    bodypd.classList.toggle('body-pd')
-    // add padding to header
-    headerpd.classList.toggle('body-pd')
-    })
-    }
-    }
-    
-    showNavbar('header-toggle','nav-bar','body-pd','header')
-    
-    /*===== LINK ACTIVE =====*/
-    const linkColor = document.querySelectorAll('.nav_link')
-    
-    function colorLink(){
-    if(linkColor){
-        linkColor.forEach(l=> l.classList.remove('active'))
-        this.classList.add('active')
-    }
-    }
-    linkColor.forEach(l=> l.addEventListener('click', colorLink))
-    
-    // Your code to run since DOM is loaded and ready
-});
-
-//get modal
+//inisial buat modal
 var modal = document.getElementById("myModal");
 //get body for overflow (scroll) disable
 var body = document.getElementById("body-pd");
-//get image
-// var img = document.getElementsByClassName('targetImg');
-//get close
+//get image var img = document.getElementsByClassName('targetImg'); get close
 var fclose = document.getElementById("close");
 //get tittle
 var ftittle = document.getElementById("ftitle");
@@ -56,29 +25,71 @@ var rating = document.getElementById("frating");
 var duration = document.getElementById("fduration");
 var directors = document.getElementById("fdirectors");
 var stars = document.getElementById("fstars");
-
+//get image to modal
+var img = document.querySelectorAll('.targetImg');
 //get button close
-var buttonClose=document.getElementById("bclose");
+var buttonClose = document.getElementById("bclose");
+//button mood, default no active
+var btn_mood = document.getElementById("btn_mood");
+btn_mood.style.display = "none";
+//button sort
+var btn_sort = document.getElementById("btn_sort");
+btn_sort.style.display ="none";
 
-//hide section login
-var flogin = document.getElementById("Graph");
+//buat navbar:
+document.addEventListener("DOMContentLoaded", function (event) {
+    const showNavbar = (toggleId, navId, bodyId, headerId) => {
+        const toggle = document.getElementById(toggleId),
+            nav = document.getElementById(navId),
+            bodypd = document.getElementById(bodyId),
+            headerpd = document.getElementById(headerId)
 
-let title_fitur = document.querySelector('.title-fitur');
+        // Validate that all variables exist
+        if (toggle && nav && bodypd && headerpd) {
+            toggle.addEventListener('click', () => {
+                // show navbar
+                nav.classList.toggle('show')
+                // change icon
+                toggle.classList.toggle('bx-x')
+                // add padding to body
+                bodypd.classList.toggle('body-pd')
+                // add padding to header
+                headerpd.classList.toggle('body-pd')
+            })
+        }
+    }
+    showNavbar('header-toggle', 'nav-bar', 'body-pd', 'header')
+
+    /*===== LINK ACTIVE =====*/
+    const linkColor = document.querySelectorAll('.nav_link')
+
+    function colorLink() {
+        if (linkColor) {
+            linkColor.forEach(l => l.classList.remove('active'))
+            this.classList.add('active')
+        }
+    }
+    linkColor.forEach(l => l.addEventListener('click', colorLink))
+    // Your code to run since DOM is loaded and ready
+});
+
+//tittle mood
+let title_fitur_mood = document.querySelector('.title-mood');
 
 // fungsi klik image detail
-const addClickImageDetail = function() {
-    const img = document.querySelectorAll('.targetImg');
+const addClickImageDetail = function () {
+    img = document.querySelectorAll('.targetImg');
     for (const img_movie of img) {
         img_movie.addEventListener('click', (e) => {
             let this_movie;
-        
+
             // search img source that match
             for (movie of movies) {
-                if ( e.currentTarget.src === movie.data.gambar) {
+                if (e.currentTarget.src === movie.data.gambar) {
                     this_movie = movie.data;
                 }
             }
-        
+
             modal.style.display = "block";
             ftittle.innerHTML = this_movie.judul;
             fImg.src = this_movie.gambar;
@@ -89,55 +100,106 @@ const addClickImageDetail = function() {
             directors.innerHTML = this_movie.director;
             stars.innerHTML = this_movie.stars;
             body.style.overflow = "hidden";
-        
         });
     }
-    
-    buttonClose.onclick = function(){
+
+    buttonClose.onclick = function () {
         modal.style.display = 'none';
         body.style.overflow = 'visible';
-        console.log("masujk sad");
+
     }
 }
+//section index/dashboard
+const nav_dashboard = document.querySelector(`#nav_dashboard`);
+nav_dashboard.addEventListener('click', (e)=>{
+    //hide all section except file section
+    sec_choose_mood.style.display = "block";
+    sec_popular.style.display = "block";
+    sec_stats.style.display = "none";
+    sec_user.style.display = "none";
+    sec_file.style.display = "none";
+    btn_mood.style.display = "none";
+    btn_sort.style.display = "none";
+});
 
-// show all film
+// Section files
 let movie_location = document.querySelector('#data-film');
-let movie_temp = ``;
+const nav_files = document.querySelector(`#nav_file`);
+nav_files.addEventListener('click', (e) => {
 
+    let movie_temp = ``;
 
-let count_movie = 0;
-for (let i=0; i<25; i++) {
-    // baris
-    movie_temp += `<div class="row mb-2">`;
+    let count_movie = 0;
+    for (let i = 0; i < 25; i++) {
+        // baris
+        movie_temp += `<div class="row mb-2">`;
 
-    for (let j=0; j<4; j++) {
-        // kolom
-        movie_temp += `
-            <div class="col-sm">
-                <img
-                    src="${movies[count_movie].data.gambar}"
-                    class="img-fluid mx-auto d-block targetImg lozad"
-                    />
-            </div>`
+        for (let j = 0; j < 4; j++) {
+            // kolom
+            movie_temp += `
+                <div class="col-sm">
+                    <img
+                        src="${movies[count_movie].data.gambar}"
+                        class="img-fluid mx-auto d-block targetImg lozad"
+                        />
+                </div>`
 
-        count_movie++;
-    } 
+            count_movie++;
+        }
 
-    movie_temp += `</div>`;
-}
+        movie_temp += `</div>`;
+    }
+    
+    //hide all section except file section
+    sec_choose_mood.style.display = "none";
+    sec_popular.style.display = "none";
+    sec_stats.style.display = "none";
+    sec_user.style.display = "none";
+    sec_file.style.display = "block";
+    btn_mood.style.display = "block";
+    btn_sort.style.display = "block";
+    movie_location.innerHTML += movie_temp;
+    addClickImageDetail();
+});
 
-movie_location.innerHTML += movie_temp;
+//section user
+const nav_user = document.querySelector(`#nav_user`);
+nav_user.addEventListener('click', (e)=>{
+    sec_choose_mood.style.display = "none";
+    sec_popular.style.display = "none";
+    sec_stats.style.display = "none";
+    sec_user.style.display = "block";
+    sec_file.style.display = "none";
+    btn_mood.style.display = "none";
+    btn_sort.style.display = "none";
+});
+
+//section stats
+const nav_stats = document.querySelector(`#nav_stats`);
+nav_stats.addEventListener('click', (e)=>{
+    sec_choose_mood.style.display = "none";
+    sec_popular.style.display = "none";
+    sec_stats.style.display = "block";
+    sec_user.style.display = "none";
+    sec_file.style.display = "none";
+    btn_mood.style.display = "none";
+    btn_sort.style.display = "none";
+})
 
 // tombol search
+var labels_mood = [];
 const search_btn = document.querySelector(`.search-button`);
+const stats_id = document.querySelector(`#data-stats`);
 search_btn.addEventListener('click', (e) => {
     const target_movie = document.querySelector('.search-value').value;
-
-    movie_location.innerHTML = '';
+    const linkColor = document.querySelector(`#nav_stats`);
+    const allLinkColor = document.querySelectorAll('.nav_link');
+    allLinkColor.forEach(l => l.classList.remove('active'));
+    stats_id.innerHTML = '';
     movie_temp = ``;
+    labels_mood = [];
 
     let movie = undefined;
-    title_fitur.innerHTML = `<h1 class="text-center movie-stats">Stats a Movie</h1>`
 
     for (m of movies) {
         if (target_movie == m.data.judul) {
@@ -151,7 +213,7 @@ search_btn.addEventListener('click', (e) => {
                 <div class="shadow row mb-5">
                     <div class="col-md-3">
                         <img
-                            src="img/BabuAja.png"
+                            src="img/BigBabuAja.png"
                             class="img-fluid mx-auto d-block"
                             alt="img06"/>
                     </div>
@@ -169,11 +231,12 @@ search_btn.addEventListener('click', (e) => {
     } else {
         let mood_list = '';
         for (mood of movie.completions[0].result) {
-            mood_list += `<h4>${mood.value.labels[0]}: ${mood.value.text}</h4>`
+            mood_list += `<p>${mood.value.labels[0]}: ${mood.value.text}</p>`;
+            labels_mood.push(mood.value.labels[0]);   
         }
-
+        
         movie_temp += `
-            <div class="container">
+                <h1 class="text-center">Stats a Movie</h1>
                 <div class="shadow row mb-5">
                     <div class="col-md-3">
                         <img
@@ -182,22 +245,29 @@ search_btn.addEventListener('click', (e) => {
                             alt="img06"/>
                     </div>
                     <div class="col-md-5">
-                        <h3>Judul: ${movie.data.judul}</h3>
-                        <h3>Synopsis: ${movie.data.synopsis}</h3>
-                        <h3>Mood List:</h3>
+                        <h3>${movie.data.judul}</h3>
+                        <p>${movie.data.synopsis}</p>
+                        <p>Mood List:</p>
                         ${mood_list}
                     </div>
                     <div class="col-md-4">
                         <div>
-                            <canvas id="myChart4"></canvas>
+                            <canvas id="chartjs"></canvas>
                         </div>
                     </div>
                 </div>
-           </div>
-        `
- 
+            `;
     }
-    movie_location.innerHTML = movie_temp;
+    stats_id.innerHTML = movie_temp;
+    sec_choose_mood.style.display = "none";
+    sec_popular.style.display = "none";
+    sec_stats.style.display = "block";
+    sec_user.style.display = "none";
+    sec_file.style.display = "none";
+    btn_mood.style.display = "none";
+    btn_sort.style.display = "none";
+    linkColor.classList.add('active');
+    resetChartMovieStats();
     addClickImageDetail();
 });
 
@@ -206,7 +276,8 @@ const mood_btn = document.querySelectorAll(`.mood-button`);
 let filtered_movie = [];
 for (mood of mood_btn) {
     mood.addEventListener('click', (e) => {
-        filtered_movie = movies.filter( (movie) => {
+        movie_location.innerHTML = '';
+        filtered_movie = movies.filter((movie) => {
             for (value of movie.completions[0].result) {
                 if (e.currentTarget.innerText == value.value.labels[0]) {
                     return true;
@@ -214,16 +285,16 @@ for (mood of mood_btn) {
             }
         });
 
-        title_fitur.innerHTML = `<h1 class="text-center movie-stats">Film Dengan Mood ${e.currentTarget.innerText}</h1>`
-        movie_location.innerHTML = '';
+        title_fitur_mood.innerHTML = `<h1 class="text-center movie-stats">Movies with Mood ${e.currentTarget.innerText}</h1>`
+        
         movie_temp = ``;
-        movie_temp += `<h2 class="pt-3 text-center"></h2>`
+       // movie_temp += `<h2 class="pt-3 text-center"></h2>`
         let count_movie = 0;
-        for (let i=0; count_movie < filtered_movie.length; i++) {
+        for (let i = 0; count_movie < filtered_movie.length; i++) {
             // baris
             movie_temp += `<div class="row mb-2">`;
-        
-            for (let j=0; (j<4) && count_movie < filtered_movie.length; j++) {
+
+            for (let j = 0; (j < 4) && count_movie < filtered_movie.length; j++) {
                 // kolom
                 movie_temp += `
                     <div class="col-sm">
@@ -234,7 +305,7 @@ for (mood of mood_btn) {
                     </div>
                 `
                 count_movie++;
-            } 
+            }
             movie_temp += `</div>`;
         }
         movie_location.innerHTML += movie_temp;
@@ -244,8 +315,8 @@ for (mood of mood_btn) {
 
 }
 
-// tombol descending ascending 
-const compare = function(a, b) {
+// tombol descending ascending
+const compare = function (a, b) {
     if (a.data.judul > b.data.judul) {
         return 1;
     }
@@ -270,11 +341,11 @@ for (sort of sort_btn) {
         movie_temp = ``;
 
         let count_movie = 0;
-        for (let i=0; count_movie < filtered_movie.length; i++) {
+        for (let i = 0; count_movie < filtered_movie.length; i++) {
             // baris
             movie_temp += `<div class="row mb-2">`;
-        
-            for (let j=0; (j<4) && count_movie < filtered_movie.length; j++) {
+
+            for (let j = 0; (j < 4) && count_movie < filtered_movie.length; j++) {
                 // kolom
                 movie_temp += `
                     <div class="col-sm">
@@ -285,7 +356,7 @@ for (sort of sort_btn) {
                     </div>
                 `
                 count_movie++;
-            } 
+            }
             movie_temp += `</div>`;
         }
         movie_location.innerHTML += movie_temp;
@@ -295,21 +366,5 @@ for (sort of sort_btn) {
     });
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 addClickImageDetail();

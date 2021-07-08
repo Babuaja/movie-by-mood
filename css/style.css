@@ -180,6 +180,10 @@ a {
     }
 }
 
+.dropdown-item.mood-button:hover{
+    cursor: pointer;
+}
+
 /*=== Thumbnail User ====*/
 .user-thumb{
     width: 38.5px;
@@ -356,7 +360,7 @@ i:hover{
 
 /*=== Profile Section ===*/
 .container.profile{
-    margin-top: 30px;
+    margin-top: 10%;
     background-color: #ffffff;
     border: solid 2px rgb(179, 179, 179);
     width: 100%;
