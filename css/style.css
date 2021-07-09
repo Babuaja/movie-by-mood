@@ -193,35 +193,15 @@ a {
 /** filter mood style**/
 form .input-group.filter{
     margin-right: 16px;
+    margin-left: 16px;
 }
-
+form .input-group.sort{
+    margin-right: 16px;
+}
 /** search length **/
 .search{
-    width: 500px;
+    width: 100%;
 }
-
-@media screen and (max-width:768px) {
-    .search{
-        width: 250px;
-    }
-    form .input-group.filter{
-        margin-right: 8px;
-    }
-}
-
-@media screen and (max-width:456px) {
-    .search{
-        width: 100px;
-    }
-    .search button{
-        font-size:xx-small;
-        width: 50%;
-    }
-    form .input-group.filter{
-        margin-right: 0;
-    }
-}
-
 /** requirements for carousel **/
 .carousel-item .row{
     padding: 0px 12%;
@@ -241,7 +221,7 @@ img.img-fluid{
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -250,7 +230,7 @@ img.img-fluid{
     position: relative;
 }
 
-.col:hover .img-fluid{
+.img-fluid:hover{
     opacity: 0.3;
     cursor: pointer;
   }
@@ -287,7 +267,7 @@ img.img-fluid{
 .modal{
     width: 100%;
     display: none;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.93);
     height: 100vh;
     color: white;
     /* size fas fa close */
@@ -384,4 +364,9 @@ i:hover{
 
 .infinite-scrolls{
     margin-bottom: 25px;
+}
+
+/* coba dulu */
+.input-group.search{
+    width: 100%;
 }

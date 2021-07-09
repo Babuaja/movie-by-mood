@@ -1,6 +1,5 @@
 <?php
     session_start();
-
     if(isset($_SESSION['id_customer']) && isset($_SESSION['email'])){
     ?>
 <!DOCTYPE html>
@@ -41,20 +40,17 @@
                 <i class='bx bx-menu' id="header-toggle"></i>
             </div>
             <!-- Form Search -->
-            <form>
+            <form class="search">
                 <!-- Search -->
-                <div class="input-group search">
+                <div class="input-group">
                     <input
-                        type="text"
-                        class="form-control search-value"
+                        type="search"
+                        class="form-control rounded search-value"
                         placeholder="Search Movie"
-                        aria-describedby="button-addon2">
-                    <button
-                        class="btn btn-outline-secondary search-button"
-                        type="button"
-                        id="button-addon2">Search</button>
+                        aria-label="Search"
+                        aria-describedby="search-addon"/>
+                    <button type="button" class="btn btn-outline-primary search-button"><i class="fas fa-search"></i></button>
                 </div>
-                <!-- End Search -->
             </form>
             <!-- End Form Search -->
             <!-- Select Mood and Sort -->
@@ -108,7 +104,7 @@
                 </div>
                 <!-- End Mood Filter -->
                 <!-- Sort By-->
-                <div class="input-group">
+                <div class="input-group sort">
                     <button
                         id="btn_sort"
                         class="btn btn-outline-secondary dropdown-toggle"
@@ -181,19 +177,29 @@
                 <div id="close" class="d-flex flex-row-reverse">
                     <i id="bclose" class="fas fa-times-circle p-3 fs-3"></i>
                 </div>
-                <div class="row showImg">
-                    <div class="col-md-5">
-                        <img id="fImg" class="img-fluid mx-auto d-block">
-                    </div>
-                    <div class="col-md-7">
-                        <div class="row p-3 border border-white">
-                            <div id="ftitle" class="row h2">Rewrite for tittle</div>
-                            <div id="fyear" class="row fs-4" style="display: inline;">Rewrite for sinopsis</div>
-                            <div id="fdetails" class="row fs-4">Rewrite for sinopsis</div>
-                            <div id="frating" class="row fs-4">Rewrite for sinopsis</div>
-                            <div id="fduration" class="row fs-4">Rewrite for sinopsis</div>
-                            <div id="fdirectors" class="row fs-4">Rewrite for sinopsis</div>
-                            <div id="fstars" class="row fs-4">Rewrite for sinopsis</div>
+                <div class="container">
+                    <div class="row showImg">
+                        <div class="col-md-4">
+                            <img id="fImg" class="img-fluid mx-auto d-block">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row p-3 border border-white">
+                                <div id="ftitle" class="row h2">Rewrite for tittle</div>
+                                <div id="fyear" class="row fs-4" style="display: inline;">Rewrite for sinopsis</div>
+                                <div id="fdetails" class="row fs-4">Rewrite for sinopsis</div>
+                                <div id="frating" class="row fs-4">Rewrite for sinopsis</div>
+                                <div id="fduration" class="row fs-4">Rewrite for sinopsis</div>
+                                <div id="fdirectors" class="row fs-4">Rewrite for sinopsis</div>
+                                <div id="fstars" class="row fs-4">Rewrite for sinopsis</div>
+                            </div>
+                            <div class="row m-5">
+                                <form action="save_movie.php" method="POST">
+                                    <div class="d-flex justify-content-evenly">
+                                        <button name="favorite_movie" id="favorite" class="btn btn-primary" value=""><i class="far fa-grin-hearts"></i> Favorite</button>
+                                        <button name="disliked_movie" id="disliked" class="btn btn-danger" value=""><i class="far fa-frown"></i> Disliked</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -204,7 +210,7 @@
             <section id="dashboard">
                 <!-- Choose Mood Customer -->
                 <section id="choose-mood" class="choose-mood">
-                    <h1 class="pt-3 text-center">How yours mood today ?</h1>
+                    <h1 class="pt-3 text-center">Hows your mood today ?</h1>
                     <div class="container">
                         <div class="row ">
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
@@ -281,33 +287,33 @@
                                                 src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="col">
                                             <img
                                                 src="https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="col">
                                             <img
                                                 src="https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -318,33 +324,33 @@
                                                 src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="col">
                                             <img
                                                 src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="col">
                                             <img
                                                 src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -355,33 +361,33 @@
                                                 src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="col">
                                             <img
                                                 src="https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <div class="col">
                                             <img
                                                 src="https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX1000.jpg"
                                                 class="img-fluid mx-auto d-block targetImg"
                                                 alt="img06"/>
-                                            <div class="middle">
+                                            <!-- <div class="middle">
                                                 <div class="text-wrap h2">
                                                     Tittle Lorem ipsum dolor sit amet
                                                 </div>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -440,23 +446,19 @@
                             <div class="col-md-9">
                                 <div class="row p-3">
                                     <div class="col-md-3 h4">Nama</div>
-                                    <div class="col-md-8 h4">Value</div>
+                                    <div class="col-md-8 h4"><?php echo $_SESSION['name']?></div>
                                 </div>
                                 <div class="row p-3">
                                     <div class="col-md-3 h4">E-mail</div>
-                                    <div class="col-md-8 h4">Value</div>
+                                    <div class="col-md-8 h4"><?php echo $_SESSION['email']?></div>
                                 </div>
                                 <div class="row p-3">
-                                    <div class="col-md-3 h4">No. Telepon</div>
-                                    <div class="col-md-8 h4">Value</div>
+                                    <div class="col-md-3 h4">Favorite Movie</div>
+                                    <div class="col-md-8 h4"><?php echo $_SESSION['favorite_movie']?></div>
                                 </div>
                                 <div class="row p-3">
-                                    <div class="col-md-3 h4">Favorit Film</div>
-                                    <div class="col-md-8 h4">Value</div>
-                                </div>
-                                <div class="row p-3">
-                                    <div class="col-md-3 h4">Boring Film</div>
-                                    <div class="col-md-8 h4">Value</div>
+                                    <div class="col-md-3 h4">Disliked Movie</div>
+                                    <div class="col-md-8 h4"><?php echo $_SESSION['disliked_movie']?></div>
                                 </div>
                             </div>
                         </div>

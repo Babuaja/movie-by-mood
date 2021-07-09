@@ -94,12 +94,14 @@ const addClickImageDetail = function () {
             ftittle.innerHTML = this_movie.judul;
             fImg.src = this_movie.gambar;
             details.innerHTML = this_movie.synopsis;
-            year.innerHTML = this_movie.tahun;
-            rating.innerHTML = this_movie.rating;
-            duration.innerHTML = this_movie.durasi;
-            directors.innerHTML = this_movie.director;
-            stars.innerHTML = this_movie.stars;
+            year.innerHTML = "(" + this_movie.tahun +")";
+            rating.innerHTML = "Rating : " + this_movie.rating;
+            duration.innerHTML = "Duration : " + this_movie.durasi + " minute";
+            directors.innerHTML = "Directors : " + this_movie.director;
+            stars.innerHTML = "Stars : " + this_movie.stars;
             body.style.overflow = "hidden";
+            document.getElementById("favorite").value = ftittle.innerHTML;
+            document.getElementById("disliked").value = ftittle.innerHTML;
         });
     }
 
@@ -139,7 +141,7 @@ const load_movie = function() {
                 <div class="col-sm">
                     <img
                         src="${movies[count_movie].data.gambar}"
-                        class="img-fluid mx-auto d-block targetImg lozad"
+                        class="shadow img-fluid mx-auto d-block targetImg lozad"
                         />
                 </div>`
 
@@ -317,7 +319,7 @@ for (mood of mood_btn) {
                     <div class="col-sm">
                         <img
                             src="${filtered_movie[count_movie].data.gambar}"
-                            class="img-fluid mx-auto d-block targetImg lozad"
+                            class="shadow img-fluid mx-auto d-block targetImg lozad"
                             />
                     </div>
                 `
@@ -368,7 +370,7 @@ for (sort of sort_btn) {
                     <div class="col-sm">
                         <img
                             src="${filtered_movie[count_movie].data.gambar}"
-                            class="img-fluid mx-auto d-block targetImg lozad"
+                            class="shadow img-fluid mx-auto d-block targetImg lozad"
                             />
                     </div>
                 `
