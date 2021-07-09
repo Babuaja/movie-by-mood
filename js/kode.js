@@ -125,16 +125,16 @@ nav_dashboard.addEventListener('click', (e)=>{
 // Section files
 let movie_location = document.querySelector('#data-film');
 const nav_files = document.querySelector(`#nav_file`);
-nav_files.addEventListener('click', (e) => {
 
+
+let count_movie = 0;
+const load_movie = function() {
     let movie_temp = ``;
-
-    let count_movie = 0;
-    for (let i = 0; i < 25; i++) {
+    for (let i=0; i < 3 && count_movie < movies.length; i++) {
         // baris
         movie_temp += `<div class="row mb-2">`;
 
-        for (let j = 0; j < 4; j++) {
+        for (let j=0; j<4 && count_movie < movies.length; j++) {
             // kolom
             movie_temp += `
                 <div class="col-sm">
@@ -145,11 +145,18 @@ nav_files.addEventListener('click', (e) => {
                 </div>`
 
             count_movie++;
-        }
+        } 
 
         movie_temp += `</div>`;
     }
-    
+
+    movie_location.innerHTML += movie_temp;
+}
+
+nav_files.addEventListener('click', (e) => {
+
+    load_movie();
+   
     //hide all section except file section
     sec_choose_mood.style.display = "none";
     sec_popular.style.display = "none";
@@ -161,6 +168,13 @@ nav_files.addEventListener('click', (e) => {
     movie_location.innerHTML += movie_temp;
     addClickImageDetail();
 });
+
+const infinite_movie = document.querySelector(`.infinite-scrolls`);
+
+infinite_movie.addEventListener('click', function() {
+    load_movie();
+});
+
 
 //section user
 const nav_user = document.querySelector(`#nav_user`);

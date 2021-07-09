@@ -418,6 +418,7 @@
                     <h1 class="text-center">New Anotation Data Movies</h1>
                 </div>
                 <div class="container-fluid mb-5 pt-3" id="data-film"></div>
+                <button class="infinite-scrolls">show more</button>
             </section>
             <!-- End Show Film table-->
             <!-- End File -->
