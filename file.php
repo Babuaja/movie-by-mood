@@ -1,11 +1,10 @@
-<?php 
+<?php
     session_start();
-    if (isset($_SESSION['id_customer']) && isset($_SESSION['email'])) {
 
-?>
+    if(isset($_SESSION['id_customer']) && isset($_SESSION['email'])){
+    ?>
 <!DOCTYPE html>
 <html>
-
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -35,7 +34,6 @@
         <!--Tittle-->
         <title>Anotasi Data Sinopsis Film</title>
     </head>
-
     <body id="body-pd">
         <!-- Navbar -->
         <header class="header" id="header">
@@ -48,10 +46,13 @@
                 <div class="input-group search">
                     <input
                         type="text"
-                        class="form-control"
+                        class="form-control search-value"
                         placeholder="Search Movie"
                         aria-describedby="button-addon2">
-                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                    <button
+                        class="btn btn-outline-secondary search-button"
+                        type="button"
+                        id="button-addon2">Search</button>
                 </div>
                 <!-- End Search -->
             </form>
@@ -61,6 +62,7 @@
                 <!-- Mood Filter-->
                 <div class="input-group filter">
                     <button
+                        id="btn_mood"
                         class="btn btn-outline-secondary dropdown-toggle"
                         type="button"
                         data-bs-toggle="dropdown"
@@ -69,39 +71,35 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="#">Angry</a>
+                            <p class="dropdown-item mood-button">Angry</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Fighting</a>
+                            <p class="dropdown-item mood-button">Sad</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Happy</a>
+                            <p class="dropdown-item mood-button">Stressed</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Hopeful</a>
+                            <p class="dropdown-item mood-button">Lonely</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Humorous</a>
+                            <p class="dropdown-item mood-button">Fighting</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Hopeful</a>
+                            <p class="dropdown-item mood-button">Happy</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Lonely</a>
+                            <p class="dropdown-item mood-button">Romantic</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Romantic</a>
+                            <p class="dropdown-item mood-button">Humorous</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Sad</a>
+                            <p class="dropdown-item mood-button">Hopeful</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Stressed</a>
+                            <p class="dropdown-item mood-button">Tense</p>
                         </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Tense</a>
-                        </li>
-
                         <li><hr class="dropdown-divider"></li>
                         <li style="text-align: center;">
                             -- Select Mood --
@@ -112,6 +110,7 @@
                 <!-- Sort By-->
                 <div class="input-group">
                     <button
+                        id="btn_sort"
                         class="btn btn-outline-secondary dropdown-toggle"
                         type="button"
                         data-bs-toggle="dropdown"
@@ -120,10 +119,10 @@
                     </button>
                     <ul class="dropdown-menu">
                         <li>
-                            <a class="dropdown-item" href="#">Ascending</a>
+                            <p class="dropdown-item sort-button">Ascending</p>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Descending</a>
+                            <p class="dropdown-item sort-button">Descending</p>
                         </li>
                         <li><hr class="dropdown-divider"></li>
                         <li style="text-align: center;">
@@ -143,40 +142,32 @@
         <div class="l-navbar" id="nav-bar">
             <nav class="nav">
                 <div>
-                    <a id="home" href="#" class="nav_logo">
+                    <a id="nav_home" href="https://babuaja.github.io" class="nav_logo">
                         <i class='bx bx-layer nav_logo-icon'></i>
                         <span class="nav_logo-name">Babu Aja</span>
                     </a>
                     <div class="nav_list">
-                        <a id="Dashboard" href="#" class="nav_link active">
+                        <a id="nav_dashboard" href="#dashboard" class="nav_link active">
                             <i class='bx bx-grid-alt nav_icon'></i>
                             <span class="nav_name">Dashboard</span>
                         </a>
-                        <a id="user" href="#" class="nav_link">
+                        <a id="nav_user" href="#user" class="nav_link">
                             <i class='bx bx-user nav_icon'></i>
-                            <span class="nav_name">Users</span>
+                            <span class="nav_name">User</span>
                         </a>
-                        <a href="#" class="nav_link">
-                            <i class='bx bx-message-square-detail nav_icon'></i>
-                            <span class="nav_name">Messages</span>
-                        </a>
-                        <a href="#" class="nav_link">
-                            <i class='bx bx-bookmark nav_icon'></i>
-                            <span class="nav_name">Bookmark</span>
-                        </a>
-                        <a href="#" class="nav_link">
+                        <a id="nav_file" href="#file"  class="nav_link">
                             <i class='bx bx-folder nav_icon'></i>
                             <span class="nav_name">Files</span>
                         </a>
-                        <a href="#Graph" class="nav_link">
+                        <a id="nav_stats" href="#stats" class="nav_link">
                             <i class='bx bx-bar-chart-alt-2 nav_icon'></i>
                             <span class="nav_name">Stats</span>
                         </a>
                     </div>
                 </div>
-                <a href="#" class="nav_link">
+                <a href="logout.php" class="nav_link">
                     <i class='bx bx-log-out nav_icon'></i>
-                    <span class="nav_name">SignOut</span>
+                    <span class="nav_name">Sign Out</span>
                 </a>
             </nav>
         </div>
@@ -208,14 +199,309 @@
                 </div>
             </div>
             <!-- End My Modal -->
-            <!-- Show popular Movie -->
-            <!-- End Slideshow -->
-            <!-- End Show popular Movie -->
+
+            <!-- Dashboard -->
+            <section id="dashboard">
+                <!-- Choose Mood Customer -->
+                <section id="choose-mood" class="choose-mood">
+                    <h1 class="pt-3 text-center">How yours mood today ?</h1>
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Angry</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Sad</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Stressed</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Lonely</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Fighting</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Happy</button>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Romantic</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Humorous</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Hopeful</button>
+                            </div>
+                            <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
+                                <button class="btn btn-dark rounded-pill">Tense</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- End Choose Mood Customer -->
+
+                <!-- Show popular Movie -->
+                <section id="popular" class="popular-movie">
+                    <h1 class="pt-3 text-center">Popular Movies</h1>
+                    <!-- Slideshow -->
+                    <div class="container-fluid mb-5">
+                        <div
+                            id="carouselExampleDark"
+                            class="carousel carousel-dark slide pt-3"
+                            data-bs-ride="carousel"
+                            data-bs-interval="10000">
+                            <div class="carousel-indicators">
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slide 1"></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#carouselExampleDark"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row justify-content-center align-middle">
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <img
+                                                src="https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX1000.jpg"
+                                                class="img-fluid mx-auto d-block targetImg"
+                                                alt="img06"/>
+                                            <div class="middle">
+                                                <div class="text-wrap h2">
+                                                    Tittle Lorem ipsum dolor sit amet
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- End Slideshow -->
+                </section>
+                <!-- End Show popular Movie -->
+            </section>
+            <!-- End Dashboard -->
+
+            <!-- File -->
             <!-- Hasil anotasi data terbaru -->
-            <h2 class="pt-3 text-center">Hasil Anotasi Data Terbaru</h2>
             <!-- Show film with table with 4 col per row-->
-            <div class="container-fluid mb-5 pt-3" id="data-film"></div>
+            <section id="file" class="file">
+                <div class="title-mood">
+                    <h1 class="text-center">New Anotation Data Movies</h1>
+                </div>
+                <div class="container-fluid mb-5 pt-3" id="data-film"></div>
+                <button class="infinite-scrolls">show more</button>
+            </section>
             <!-- End Show Film table-->
+            <!-- End File -->
+
+            <!-- User -->
+            <section id="user" class="user">
+                <div class="container-fluid">
+                     <div class="shadow container profile">
+                        <div class="row">
+                            <h1 class="text-center p-2 m-0">Membership Card</h1>
+                        </div>
+                        <div class="row divider d-flex align-items-center">
+                            <div class="col-md-3 p-3">
+                                <span class=""><img src="img/BigBabuaja.png" class="img-fluid img-user" alt="photo profile">
+                                </span>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="row p-3">
+                                    <div class="col-md-3 h4">Nama</div>
+                                    <div class="col-md-8 h4">Value</div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-md-3 h4">E-mail</div>
+                                    <div class="col-md-8 h4">Value</div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-md-3 h4">No. Telepon</div>
+                                    <div class="col-md-8 h4">Value</div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-md-3 h4">Favorit Film</div>
+                                    <div class="col-md-8 h4">Value</div>
+                                </div>
+                                <div class="row p-3">
+                                    <div class="col-md-3 h4">Boring Film</div>
+                                    <div class="col-md-8 h4">Value</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End User -->
+
+            <!-- Stats Movie -->
+            <section id="stats" class="stats">
+                <div class="container">
+                    <div id="data-stats">
+                        <!-- <h1 class="text-center">Stats a Movie</h1>
+                        <div class="shadow row mb-5">
+                            <div class="col-md-3">
+                                <img
+                                    src="https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX1000.jpg"
+                                    class="img-fluid mx-auto d-block targetImg"
+                                    alt="img06"/>
+                            </div>
+                            <div class="col-md-5">
+                                <h3>[Judul]</h3>
+                                <p>Loremipsum colorset amet</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <canvas id="myChart4"></canvas>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <h1 class="pt-2 text-center">Global Movies Stats</h1>
+                    <div class="shadow row mb-5">
+                        <div class="col-md-6 p-4">
+                            <div>
+                                <canvas id="genre-movies-chart" class="global-stats"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-md-6 p-4">
+                            <div>
+                                <canvas id="mood-movies-chart" class="global-stats"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Stats Movie -->
         </div>
         <!--Container Main end-->
 
@@ -239,14 +525,21 @@
 
         <!--Script Pie Google Chart-->
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+        <!-- Use Chartjs -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <!-- js for graph -->
+        <script src="js/stats_a_movie.js"></script>
+        <script src="js/stats_global_movies.js"></script>
+
     </body>
 
 </html>
-}
-<?php 
-}else{
 
-     header("Location: Login-WEB/index.php");
+<?php
+    } else{
+     header("Location: ../Login-WEB/");
      exit();
-}
+    }
 ?>

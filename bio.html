@@ -26,7 +26,9 @@
         <!-- Favicons -->
         <link href="assets/img/BabuAja.png" rel="icon">
         <link href="assets/img/BabuAja.png" rel="apple-touch-icon">
-
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>  
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <!--Tittle-->
         <title>Anotasi Data Sinopsis Film</title>
     </head>
@@ -180,61 +182,69 @@
         <!--Container Main start-->
         <!-- If u want take content here edit :-->
         <section id="main" class="userprofile">
-            <div class="container-fluid">
-                <!-- My Modal -->
-                <div id="myModal" class="modal">
-                    <div id="close" class="d-flex flex-row-reverse">
-                        <i id="bclose" class="fas fa-times-circle p-3 fs-3"></i>
-                    </div>
-                    <div class="row showImg">
-                        <div class="col-md-5">
-                            <img id="fImg" class="img-fluid mx-auto d-block">
-                        </div>
-                        <div class="col-md-7">
-                            <div class="row p-3 border border-white">
-                                <div id="ftitle" class="row h2">Rewrite for tittle</div>
-                                <div id="fdetails" class="row fs-4">Rewrite for sinopsis</div>
-                            </div>
-                        </div>
-                    </div>
+            <section class="dynamicContent">
+                <div id="content">
+                    <div class="box1" style="background-color: rgb(136, 27, 18);"></div>
+                    <div class="box1" style="background-color: rgb(220, 6, 49);"></div>
+                    <div class="box1" style="background-color: rgb(220, 99, 94);"></div>
+                    <div class="box1" style="background-color: rgb(45, 39, 160);"></div>
+                    <div class="box1" style="background-color: rgb(215, 79, 209);"></div>
+                    <div class="box1" style="background-color: rgb(230, 221, 39);"></div>
+                    <div class="box1" style="background-color: rgb(7, 32, 212);"></div>
+                    <div class="box1" style="background-color: rgb(113, 218, 108);"></div>
+                    <div class="box1" style="background-color: rgb(128, 188, 147);"></div>
+                    <div class="box1" style="background-color: rgb(48, 107, 51);"></div>
+                    <div class="box1" style="background-color: rgb(172, 236, 247);"></div>
+                    <div class="box1" style="background-color: rgb(82, 132, 155);"></div>
+                    <div class="box1" style="background-color: rgb(161, 230, 112);"></div>
+                    <div class="box1" style="background-color: rgb(218, 106, 63);"></div>
+                    <div class="box1" style="background-color: rgb(43, 181, 252);"></div>
+                    <div class="box1" style="background-color: rgb(119, 36, 156);"></div>
+                    <div class="box1" style="background-color: rgb(62, 246, 10);"></div>
+                    <div class="box1" style="background-color: rgb(154, 170, 165);"></div>
                 </div>
-                <!-- End My Modal -->
-                <!-- Show popular Movie -->
-                <!-- <h1 class="pt-3 text-center">User Profile</h1> -->
-                <!-- Profile User -->
-                <div class="shadow container profile">
-                    <div class="row">
-                        <h1 class="text-center p-2 m-0">Kartu Tanda Anggota</h1>
-                    </div>
-                    <div class="row divider d-flex align-items-center">
-                        <div class="col-md-3 p-3">
-                            <span class=""><img src="img/BigBabuaja.png" class="img-fluid img-user" alt="photo profile">  </span>      
-                        </div>
-                        <div class="col-md-9">
-                            <div class="row p-3">
-                                <div class="col-md-3 h4">Nama</div>
-                                <div class="col-md-8 h4">Value</div>
-                            </div>
-                            <div class="row p-3">
-                                <div class="col-md-3 h4">E-mail</div>
-                                <div class="col-md-8 h4">Value</div>
-                            </div>
-                            <div class="row p-3">
-                                <div class="col-md-3 h4">No. Telepon</div>
-                                <div class="col-md-8 h4">Value</div>
-                            </div>
-                            <div class="row p-3">
-                                <div class="col-md-3 h4">Favorit Film</div>
-                                <div class="col-md-8 h4">Value</div>
-                            </div>
-                            <div class="row p-3">
-                                <div class="col-md-3 h4">Boring Film</div>
-                                <div class="col-md-8 h4">Value</div>
-                            </div>
-                        </div>   
-                    </div>
+                <div id="loader" class="active">
+                    <img
+                        src="https://scrollmagic.io/assets/img/example_loading.gif">
+                    LOADING...
                 </div>
-            </div>
+            </section>
+
+                <script>
+                    // init controller
+                    var controller = new ScrollMagic.Controller();
+                
+                    // build scene
+                    var scene = new ScrollMagic.Scene({triggerElement: ".dynamicContent #loader", triggerHook: "onEnter"})
+                                    .addTo(controller)
+                                    .on("enter", function (e) {
+                                        if (!$("#loader").hasClass("active")) {
+                                            $("#loader").addClass("active");
+                                            if (console){
+                                                console.log("loading new items");
+                                            }
+                                            // simulate ajax call to add content using the function below
+                                            setTimeout(addBoxes, 1000, 9);
+                                        }
+                                    });
+                
+                    // pseudo function to add new content. In real life it would be done through an ajax request.
+                    function addBoxes (amount) {
+                        for (i=1; i<=amount; i++) {
+                            var randomColor = '#'+('00000'+(Math.random()*0xFFFFFF<<0).toString(16)).slice(-6);
+                            $("<div></div>")
+                                .addClass("box1")
+                                .css("background-color", randomColor)
+                                .appendTo(".dynamicContent #content");
+                        }
+                        // "loading" done -> revert to normal state
+                        scene.update(); // make sure the scene gets the new start position
+                        $("#loader").removeClass("active");
+                    }
+                
+                    // add some boxes to start with.
+                    addBoxes(18);
+                </script>
         </section>
         <!--Container Main end-->
 
@@ -243,8 +253,7 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
-
-        <!-- Script separate boostrap 5.2 -->
+       <!-- Script separate boostrap 5.2 -->
         <!-- <script
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -253,7 +262,6 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script> -->
         <!-- Custom Script -->
-        <script src="js/kode.js"></script>
 
         <!--Script Pie Google Chart-->
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>

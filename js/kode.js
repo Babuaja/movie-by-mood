@@ -125,11 +125,10 @@ nav_dashboard.addEventListener('click', (e)=>{
 // Section files
 let movie_location = document.querySelector('#data-film');
 const nav_files = document.querySelector(`#nav_file`);
-
-
 let count_movie = 0;
+let movie_temp = ``;
 const load_movie = function() {
-    let movie_temp = ``;
+    movie_temp = ``;
     for (let i=0; i < 3 && count_movie < movies.length; i++) {
         // baris
         movie_temp += `<div class="row mb-2">`;
@@ -151,11 +150,14 @@ const load_movie = function() {
     }
 
     movie_location.innerHTML += movie_temp;
+    addClickImageDetail();
 }
 
 nav_files.addEventListener('click', (e) => {
 
-    load_movie();
+    if(count_movie < 12){
+        load_movie();
+    }
    
     //hide all section except file section
     sec_choose_mood.style.display = "none";
@@ -165,7 +167,8 @@ nav_files.addEventListener('click', (e) => {
     sec_file.style.display = "block";
     btn_mood.style.display = "block";
     btn_sort.style.display = "block";
-    movie_location.innerHTML += movie_temp;
+    if(count_movie < 12)
+        movie_location.innerHTML += movie_temp;
     addClickImageDetail();
 });
 
@@ -302,7 +305,7 @@ for (mood of mood_btn) {
         title_fitur_mood.innerHTML = `<h1 class="text-center movie-stats">Movies with Mood ${e.currentTarget.innerText}</h1>`
         
         movie_temp = ``;
-       // movie_temp += `<h2 class="pt-3 text-center"></h2>`
+
         let count_movie = 0;
         for (let i = 0; count_movie < filtered_movie.length; i++) {
             // baris
