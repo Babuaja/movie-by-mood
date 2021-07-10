@@ -210,40 +210,40 @@
             <section id="dashboard">
                 <!-- Choose Mood Customer -->
                 <section id="choose-mood" class="choose-mood">
-                    <h1 class="pt-3 text-center">Hows your mood today ?</h1>
+                    <h1 class="pt-3 text-center">Mood apa yang ingin ditonton ?</h1>
                     <div class="container">
                         <div class="row ">
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Angry</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Angry</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Sad</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Sad</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Stressed</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Stressed</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Lonely</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Lonely</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Fighting</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Fighting</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Happy</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Happy</button>
                             </div>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Romantic</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Romantic</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Humorous</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Humorous</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Hopeful</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Hopeful</button>
                             </div>
                             <div class="col-md-2 col-sm-3 col-4 d-flex justify-content-center p-3">
-                                <button class="btn btn-dark rounded-pill">Tense</button>
+                                <button class="btn btn-dark rounded-pill mood-button">Tense</button>
                             </div>
                         </div>
                     </div>
@@ -540,6 +540,7 @@
     </body>
 
 </html>
+
 
 <?php
     } else{

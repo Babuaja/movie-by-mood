@@ -129,18 +129,18 @@ let movie_location = document.querySelector('#data-film');
 const nav_files = document.querySelector(`#nav_file`);
 let count_movie = 0;
 let movie_temp = ``;
-const load_movie = function() {
+const load_movie = function(movie_list) {
     movie_temp = ``;
-    for (let i=0; i < 3 && count_movie < movies.length; i++) {
+    for (let i=0; i < 3 && count_movie < movie_list.length; i++) {
         // baris
         movie_temp += `<div class="row mb-2">`;
 
-        for (let j=0; j<4 && count_movie < movies.length; j++) {
+        for (let j=0; j<4 && count_movie < movie_list.length; j++) {
             // kolom
             movie_temp += `
                 <div class="col-sm">
                     <img
-                        src="${movies[count_movie].data.gambar}"
+                        src="${movie_list[count_movie].data.gambar}"
                         class="shadow img-fluid mx-auto d-block targetImg lozad"
                         />
                 </div>`
@@ -158,7 +158,7 @@ const load_movie = function() {
 nav_files.addEventListener('click', (e) => {
 
     if(count_movie < 12){
-        load_movie();
+        load_movie(movies);
     }
    
     //hide all section except file section
@@ -177,7 +177,7 @@ nav_files.addEventListener('click', (e) => {
 const infinite_movie = document.querySelector(`.infinite-scrolls`);
 
 infinite_movie.addEventListener('click', function() {
-    load_movie();
+    load_movie(movies);
 });
 
 
@@ -330,6 +330,14 @@ for (mood of mood_btn) {
         movie_location.innerHTML += movie_temp;
 
         addClickImageDetail();
+        sec_choose_mood.style.display = "none";
+        sec_popular.style.display = "none";
+        sec_stats.style.display = "none";
+        sec_user.style.display = "none";
+        sec_file.style.display = "block";
+        btn_mood.style.display = "block";
+        btn_sort.style.display = "block";
+
     });
 
 }
