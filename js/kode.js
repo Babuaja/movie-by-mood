@@ -127,10 +127,12 @@ nav_dashboard.addEventListener('click', (e)=>{
 // Section files
 let movie_location = document.querySelector('#data-film');
 const nav_files = document.querySelector(`#nav_file`);
+const btn_infinite = document.querySelector(`.infinite-scrolls`);
 let count_movie = 0;
 let movie_temp = ``;
 const load_movie = function(movie_list) {
     movie_temp = ``;
+    btn_infinite.disabled = false;
     for (let i=0; i < 3 && count_movie < movie_list.length; i++) {
         // baris
         movie_temp += `<div class="row mb-2">`;
@@ -337,7 +339,7 @@ for (mood of mood_btn) {
         sec_file.style.display = "block";
         btn_mood.style.display = "block";
         btn_sort.style.display = "block";
-
+        btn_infinite.disabled = true;
     });
 
 }
